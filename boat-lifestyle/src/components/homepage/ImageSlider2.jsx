@@ -8,7 +8,7 @@ const images = [
     { url: "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Energetic_-Charming_-Free-Spirit_jpg_563x.jpg?v=1651227851" }
 ];
 
-export const ImageSlider = () => {
+export const ImageSlider2 = () => {
     return (
         <div>
             <SimpleImageSlider

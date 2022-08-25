@@ -27,6 +27,7 @@ const Deals = styled.div`
         font-size:35px;
         font-weight: 700;
         color:white;
+        text-align: center;
     }
     .cont {
         height: 100%;

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ProductCard } from "../../productPage/ProductCard";
+import { ProductCard } from "../productPage/ProductCard";
 
 const Container = styled.div`
     height: 650px;

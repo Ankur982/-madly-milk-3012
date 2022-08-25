@@ -50,14 +50,22 @@ const NavbarContainre = styled.div`
 
     > span:nth-child(1) img {
       padding: 10px;
+      
+    }
+
+    > span:nth-child(2) {
+      color: white;
+      font-weight: 500;
     }
 
     > span:nth-child(3) {
       color: white;
+      font-weight: 500;
     }
 
     > span:nth-child(4) {
       display: flex;
+      font-weight: 500;
     }
 
     > span:nth-child(4) img {
@@ -77,7 +85,7 @@ const NavbarContainre = styled.div`
     }
 
     > span:hover {
-      color: var(--red);
+      color: red;
     }
 
     > span::after {
@@ -167,7 +175,6 @@ const SearchBox = styled.div`
 
 const NavbarSpaceHolder = styled.div`
   height: 88px;
-  margin-bottom: 500px;
 `;
 
 const mystyle = {
@@ -175,10 +182,11 @@ const mystyle = {
   width: "100%",
   height: "35px",
   color: "white",
+  textAlign: "center",
   backgroundColor: "#ff0000",
   position: "fixed",
   top: "0px",
-  zindex: 100,
+  zIndex: 1000,
 };
 export const Navbar = () => {
   const [flag, setFlag] = useState(false);
@@ -199,9 +207,9 @@ export const Navbar = () => {
             Shop <img src={downArrowIcon} alt="arrow-Icon" />
             <Collection className="navbar-collection" />
           </span>
-          <span>Pro It Up</span>
+          <span>Daily Deals</span>
           <span>
-            <Link to="/pages/sound-of-champions">Sound of Champions</Link>{" "}
+            <Link to="/pages/sound-of-champions">Offer Zone</Link>{" "}
           </span>
           <span>
             More <img src={downArrowIcon} alt="arrow-Icon" />

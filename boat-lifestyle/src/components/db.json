@@ -1,0 +1,68 @@
+{
+  "BestSellers": [
+    {
+      "id": 1,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_600x.png?v=1642405569",
+      "title": "boAt Airdopes 131 - Wireless Earbuds",
+      "rating":"4.8",
+      "reviews": "1116",
+      "price":"2,990",
+      "dic_price":"1,099",
+      "saving":"1891",
+      "discount":"63%"
+    },
+    {
+      "id": 2,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/airdopes-121-v2-blue_400x.png?v=1612765376",
+      "title": "boAt Airdopes 121 v2",
+      "rating":"4.8",
+      "reviews": "466",
+      "price":"2,990",
+      "dic_price":"1,099",
+      "saving":"1900",
+      "discount":"63%"
+    },{
+      "id": 3,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/xtend_black_600x.png?v=1650387008",
+      "title": "boAt Watch Xtend‌ with Alexa Built-in",
+      "rating":"4.8",
+      "reviews": "121",
+      "price":"7,990",
+      "dic_price":"2,999",
+      "saving":"4991",
+      "discount":"62%"
+    },
+    {
+      "id": 4,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/MG_400x.png?v=1657775492",
+      "title": "boAt Airdopes 131 PRO",
+      "rating":"5.0",
+      "reviews": "2",
+      "price":"2,990",
+      "dic_price":"1,299",
+      "saving":"1691",
+      "discount":"57%"
+    },
+    {
+      "id": 5,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-img-R333-1_400x.png?v=1641801662",
+      "title": "boAt Rockerz 333",
+      "rating":"4.9",
+      "reviews": "146",
+      "price":"3,990",
+      "dic_price":"1,399",
+      "saving":"2591",
+      "discount":"65%"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

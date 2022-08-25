@@ -14,6 +14,7 @@ const ThePress = styled.div`
     font-size: 30px;
     font-weight: 700;
     padding-top: 80px;
+    text-align: center;
   }
 
   .ThePresImgCon {
@@ -33,6 +34,7 @@ const ThePress = styled.div`
   }
   .ThepressTxtHover {
     font-size: 20px;
+    text-align: center;
   }
   span{
     font-size: 50px;

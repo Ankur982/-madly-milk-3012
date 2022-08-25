@@ -8,9 +8,11 @@ const images = [
     { url: "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Banner-Wave-Select-Desktop_3_2000x.gif?v=1660741182" },
     { url: "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/web-banner-shop-now_2_f29ea286-44e1-4022-aa8f-fcd2d3d0bc0c_2000x.jpg?v=1659763025" },
     {url:"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/stone-banner_1_2000x.jpg?v=1659681411"},
+    {url:"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/A121-website-banner_3_2000x.jpg?v=1659936537"},
+    {url:"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Desktop-Banner-boat-Days_2000x.jpg?v=1661427940"}
 ];
 
-export const ImageSlider = () => {
+export const ImageSlider1 = () => {
     return (
         <div>
             <SimpleImageSlider

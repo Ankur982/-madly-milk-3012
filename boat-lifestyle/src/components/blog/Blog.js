@@ -46,14 +46,14 @@ export const Blog = () => {
   return (
     <>
       <BlogContainer>
-      <h2>Boat Blog</h2>
+      <h2>boAt Blogs</h2>
       <div>
         {blog.map(({ blogThumbnail, blogTital }) => (
             <BlogCard blogThumbnail={blogThumbnail} blogTital={blogTital} />
             ))}
       </div>
     </BlogContainer>
-      <Button bg='#ff0000' color="white" size='lg' marginBottom="30px">
+      <Button bg='#ff0000' display="block" margin="auto"  color="white" size='lg' marginBottom="30px" >
       EXPLORE BLOGS
     </Button>
     </>
