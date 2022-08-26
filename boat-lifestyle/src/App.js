@@ -4,6 +4,7 @@ import { AllRoutes } from './components/routes/Routes';
 import { Register } from './components/Register';
 import { Navbar } from './components/navbar/Navbar';
 import { Footer } from './components/Footer';
+import { Login } from './components/Login';
 
 
 
@@ -17,7 +18,7 @@ function App() {
     <div className="App">
       {/* <AllRoutes/> */}
       <Navbar/>
-      <Register/>
+     <Login/>
       <Footer/>
     </div>
   );

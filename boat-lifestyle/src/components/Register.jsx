@@ -85,11 +85,7 @@ margin-top:30px;
     }
 
 
-   ::placeholder {
-        color: red;
-        opacity: 1;
-    }
-   
+  
 
 
     .action-bottom > span {
