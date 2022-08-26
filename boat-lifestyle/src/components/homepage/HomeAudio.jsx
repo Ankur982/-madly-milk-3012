@@ -60,8 +60,8 @@ const BestSellerBox = styled.div`
   }
 `;
 
-export const TopEarbuds = () => {
-  const [bestSellerItem, setBestSellerItem] = useState(data.TopEarbuds);
+export const HomeAudio = () => {
+  const [bestSellerItem, setBestSellerItem] = useState(data.HomeAudio);
 
   return (
     <>
@@ -74,7 +74,7 @@ export const TopEarbuds = () => {
           color: "white",
         }}
       >
-        Top Earbuds
+        Home Audio
       </h1>
       <BestSellerBox>
         {bestSellerItem &&

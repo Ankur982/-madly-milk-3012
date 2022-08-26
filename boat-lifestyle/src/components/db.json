@@ -55,14 +55,977 @@
       "discount":"65%"
     }
   ],
-  "comments": [
+
+  "DailyDeals": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/0893f345-8dbf-4b30-a3fd-8f717bb34d93_400x.png?v=1625045856",
+      "title": "boAt Rockerz 510",
+      "rating":"4.8",
+      "reviews": "133",
+      "price":"3,490",
+      "dic_price":"1,299",
+      "saving":"219",
+      "discount":"63%"
+    },
+    {
+      "id": 2,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Main1_38d12adf-3a49-46be-9a91-3c9f75431353_400x.png?v=1654195093",
+      "title": "boAt Rockerz 260",
+      "rating":"4.8",
+      "reviews": "466",
+      "price":"2,990",
+      "dic_price":"1,099",
+      "saving":"1900",
+      "discount":"63%"
+    },{
+      "id": 3,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-img_1_400x.png?v=1615965629",
+      "title": "boAt Rockerz 450 - Masaba...",
+      "rating":"4.8",
+      "reviews": "121",
+      "price":"7,990",
+      "dic_price":"2,999",
+      "saving":"4991",
+      "discount":"62%"
+    },
+    {
+      "id": 4,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/d9ed8fdf-3569-4dce-a521-9d88e5c238cc_400x.png?v=1625046507",
+      "title": "boAt Rockerz 255",
+      "rating":"5.0",
+      "reviews": "2",
+      "price":"2,990",
+      "dic_price":"1,299",
+      "saving":"1691",
+      "discount":"57%"
+    },
+    {
+      "id": 5,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/a94ee4f6-571a-4b6d-afed-6656650f48f9_400x.png?v=1625046509",
+      "title": "boAt Rockerz 255 KKR Edition",
+      "rating":"4.9",
+      "reviews": "146",
+      "price":"3,990",
+      "dic_price":"1,399",
+      "saving":"2591",
+      "discount":"65%"
+    },{
+      "id": 6,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/1200f_main2_400x.png?v=1632893558",
+      "title": "boAt Stone 1200F",
+      "rating":"4.8",
+      "reviews": "121",
+      "price":"7,990",
+      "dic_price":"2,999",
+      "saving":"4991",
+      "discount":"62%"
+    },
+    {
+      "id": 7,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+      "title": "boAt Rockerz 255",
+      "rating":"5.0",
+      "reviews": "2",
+      "price":"2,990",
+      "dic_price":"1,299",
+      "saving":"1691",
+      "discount":"57%"
+    },
+    {
+      "id": 8,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/IM1300_main_4_400x.png?v=1632715015",
+      "title": "boAt Immortal 1300",
+      "rating":"4.9",
+      "reviews": "146",
+      "price":"3,990",
+      "dic_price":"1,399",
+      "saving":"2591",
+      "discount":"65%"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+
+  "DropestProduct": [
+    {
+      "id": 1,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-image-1_400x.png?v=1661272676",
+      "title": "Storm Call - Bluetooth Calling..",
+      "rating":"4.8",
+      "reviews": "133",
+      "price":"3,490",
+      "dic_price":"1,299",
+      "saving":"219",
+      "discount":"63%"
+    },
+    {
+      "id": 2,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/CMF.996_400x.png?v=1661155833",
+      "title": "Xtend Talk",
+      "rating":"4.8",
+      "reviews": "466",
+      "price":"2,990",
+      "dic_price":"1,099",
+      "saving":"1900",
+      "discount":"63%"
+    },{
+      "id": 3,
+      "image":"https://www.boat-lifestyle.com/products/boat-airdopes-141-pro-earbuds",
+      "title": "boAt Airdopes 141 Pro",
+      "rating":"4.8",
+      "reviews": "121",
+      "price":"7,990",
+      "dic_price":"2,999",
+      "saving":"4991",
+      "discount":"62%"
+    },
+    {
+      "id": 4,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/xtend-pro-1_400x.png?v=1658298359",
+      "title": "boAt Xtend Pro",
+      "rating":"5.0",
+      "reviews": "2",
+      "price":"2,990",
+      "dic_price":"1,299",
+      "saving":"1691",
+      "discount":"57%"
+    },
+    {
+      "id": 5,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/wave-call-3_400x.png?v=1658295343",
+      "title": "boAt Wave Call",
+      "rating":"4.9",
+      "reviews": "146",
+      "price":"3,990",
+      "dic_price":"1,399",
+      "saving":"2591",
+      "discount":"65%"
+    },{
+      "id": 6,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/blue_58bd5e28-de95-4f31-909d-6bce484bdbd9_400x.png?v=1658294451",
+      "title": "boAt Wave Select..",
+      "rating":"4.8",
+      "reviews": "121",
+      "price":"7,990",
+      "dic_price":"2,999",
+      "saving":"4991",
+      "discount":"62%"
+    },
+    {
+      "id": 7,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/413-green_400x.png?v=1658298863",
+      "title": "boAt Airdopes 413 ANC",
+      "rating":"5.0",
+      "reviews": "2",
+      "price":"2,990",
+      "dic_price":"1,299",
+      "saving":"1691",
+      "discount":"57%"
+    },
+    {
+      "id": 8,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/fvtfgvt_400x.png?v=1658150489",
+      "title": "boAt Airdopes 121 PRO",
+      "rating":"4.9",
+      "reviews": "146",
+      "price":"3,990",
+      "dic_price":"1,399",
+      "saving":"2591",
+      "discount":"65%"
+    }
+  ],
+
+  "NewArrivals": [
+    {
+      "id": 1,
+      "video":"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/quinn_rfcpupPH91wNHtK3BOvFW_card_thumbnail.mp4?v=3606890552447842088",
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/CMF.1028_64x64.png?v=1661155840",
+      "title": "Xtend Talk - Premium Design..",
+      "price":"6,990",
+      "dic_price":"2,999",
+      "saving":"3991",
+      "discount":"57%",
+      "type":"Smart Watches"
+    },
+    {
+      "id": 2,
+      "video":"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/quinn_rq_O5tqSZIIgR13t0gUaN_card_thumbnail.mp4?v=8992424439691853575",
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/1_05260e43-8f0b-4776-a433-ea2089c7f7e7_64x64.png?v=1659614550",
+      "title": "boAt Airdopes 141 Pro||12mm..",
+      "price":"2,990",
+      "dic_price":"1,499",
+      "saving":"1491",
+      "discount":"50%",
+      "type":"Wireless Earbuds"
+    },
+    {
+      "id": 3,
+      "video":"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/quinn_lUtZiAPq1HANGe2gvJovW_card_thumbnail.mp4?v=4338432963482069035",
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Untitled-5_64x64.png?v=1658294451",
+      "title": "boAt Airdopes 141 Pro",
+      "price":"6,990",
+      "dic_price":"2,499",
+      "saving":"4,491",
+      "discount":"64%",
+      "type":"Smart Watches"
+    },
+    {
+      "id": 4,
+      "video":"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/quinn_-vF35-rQnNyg9d5vdpnyC_card_thumbnail.mp4?v=7981550793775535502",
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Untitled-1_e66c4515-7594-4726-89d6-e2b311a39c94_64x64.png?v=1658436784",
+      "title": "boAt Ston 1000v2",
+      "price":"6,990",
+      "dic_price":"2,999",
+      "saving":"3,991",
+      "discount":"57%",
+      "type":"Bluetooth Speakers"
+    },
+    {
+      "id": 5,
+      "video":"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/quinn_JT5ptn7CC1JX0ufRBgp2y_card_thumbnail.mp4?v=6251452521558985749",
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/grey_916612cd-a8da-408e-8ec6-b177df5fa727_1_64x64.png?v=1658150489",
+      "title": "boAt Airdopes 131 PRO",
+      "price":"2,990",
+      "dic_price":"1,399",
+      "saving":"1,691",
+      "discount":"57%",
+      "type":"Airdopes TWS"
+    },
+    {
+      "id": 6,
+      "video":"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/quinn_Z0-RLJlUCNvOBH3jAQq0V_card_thumbnail.mp4?v=17400666481025471640",
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-image-4_1_64x64.png?v=1656016935",
+      "title": "boAt Airdopes 131 PRO",
+      "price":"6,990",
+      "dic_price":"3,999",
+      "saving":"2,991",
+      "discount":"43%",
+      "type":"Smart Watches"
+    },
+    {
+      "id": 6,
+      "video":"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/quinn_Z0-RLJlUCNvOBH3jAQq0V_card_thumbnail.mp4?v=17400666481025471640",
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-image-4_1_64x64.png?v=1656016935",
+      "title": "boAt Strom Pro",
+      "price":"6,990",
+      "dic_price":"3,999",
+      "saving":"2,991",
+      "discount":"43%",
+      "type":"Smart Watches"
+    },
+    {
+      "id": 7,
+      "video":"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/quinn_33Y-hrJvgwdrFKuZ5AnlH_card_thumbnail.mp4?v=4154772575800359845",
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/413-black_64x64.png?v=1658298863",
+      "title": "boAt Airdopes TWS",
+      "price":"4,990",
+      "dic_price":"2,299",
+      "saving":"2,691",
+      "discount":"54%",
+      "type":"Smart Watches"
+    }
+  ],
+  "SmartWatches": [
+    {
+      "id": 1,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/xtend_black_400x.png?v=1650387008",
+      "title": "boAt Watch Xtend‌ with Alexa",
+      "rating":"4.8",
+      "reviews": "133",
+      "price":"3,490",
+      "dic_price":"1,299",
+      "saving":"219",
+      "discount":"63%"
+    },
+    {
+      "id": 2,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/a6549acb-b075-4c3e-8ed3-9c9fcba32d42_400x.png?v=1625046216",
+      "title": "boAt Storm Smart Watches",
+      "rating":"4.8",
+      "reviews": "466",
+      "price":"2,990",
+      "dic_price":"1,099",
+      "saving":"1900",
+      "discount":"63%"
+    },{
+      "id": 3,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_blue_759e7ad4-18af-4407-9e8a-91c0058b1a74_400x.png?v=1648108782",
+      "title": "boAt Wave Lite Smartwatch -",
+      "rating":"4.8",
+      "reviews": "121",
+      "price":"7,990",
+      "dic_price":"2,999",
+      "saving":"4991",
+      "discount":"62%"
+    },
+    {
+      "id": 4,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/blue_d8db0011-02f7-43d6-9fe7-7a71a9ed86d2_400x.png?v=1654312290",
+      "title": "boAt Wave Connect",
+      "rating":"5.0",
+      "reviews": "2",
+      "price":"2,990",
+      "dic_price":"1,299",
+      "saving":"1691",
+      "discount":"57%"
+    },
+    {
+      "id": 5,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main3_eaf60560-3afb-4dda-b4c0-598078f7ce72_400x.png?v=1647767874",
+      "title": "boAt Wave Pro Smartwatch..",
+      "rating":"4.9",
+      "reviews": "146",
+      "price":"3,990",
+      "dic_price":"1,399",
+      "saving":"2591",
+      "discount":"65%"
+    },{
+      "id": 6,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-images-2_400x.png?v=1655198531",
+      "title": "boAt Xtend Sport - Fitness",
+      "rating":"4.8",
+      "reviews": "121",
+      "price":"7,990",
+      "dic_price":"2,999",
+      "saving":"4991",
+      "discount":"62%"
+    },
+    {
+      "id": 7,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/5752f5e4-89e0-4f84-b7fe-4d9f85771046_400x.png?v=1625157753",
+      "title": "boAt Watch Flash - Smart",
+      "rating":"5.0",
+      "reviews": "2",
+      "price":"2,990",
+      "dic_price":"1,299",
+      "saving":"1691",
+      "discount":"57%"
+    },
+    {
+      "id": 8,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Blaze-FI-Red04_400x.png?v=1658123186",
+      "title": "boAt Watch Flash",
+      "rating":"4.9",
+      "reviews": "146",
+      "price":"3,990",
+      "dic_price":"1,399",
+      "saving":"2591",
+      "discount":"65%"
+    }
+  ],
+
+
+  "TrendingWireless": [
+    {
+      "id": 1,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Main1_38d12adf-3a49-46be-9a91-3c9f75431353_600x.png?v=1654195093",
+      "title": "boAt Rockerz 260",
+      "rating":"4.8",
+      "reviews": "133",
+      "price":"3,490",
+      "dic_price":"1,299",
+      "saving":"219",
+      "discount":"63%"
+    },
+    {
+      "id": 2,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/48d16e65-e295-45ef-a59d-ee85f787001d_400x.png?v=1625044995",
+      "title": "boAt Rockerz 235 V2",
+      "rating":"4.8",
+      "reviews": "466",
+      "price":"2,990",
+      "dic_price":"1,099",
+      "saving":"1900",
+      "discount":"63%"
+    },{
+      "id": 3,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/R245v2-fi-2.4_400x.jpg?v=1655442439",
+      "title": "boAt Rockerz 245 V2",
+      "rating":"4.8",
+      "reviews": "121",
+      "price":"7,990",
+      "dic_price":"2,999",
+      "saving":"4991",
+      "discount":"62%"
+    },
+    {
+      "id": 4,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/2_cae7e95b-ed02-4b49-9a88-e4e5324111ba_400x.png?v=1655888228",
+      "title": "boAt Rockerz 460",
+      "rating":"5.0",
+      "reviews": "2",
+      "price":"2,990",
+      "dic_price":"1,299",
+      "saving":"1691",
+      "discount":"57%"
+    },
+    {
+      "id": 5,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main3_a08fff6a-7c3d-4663-9499-3421df127e94_400x.png?v=1641801688",
+      "title": "boAt Rockerz 330",
+      "rating":"4.9",
+      "reviews": "146",
+      "price":"3,990",
+      "dic_price":"1,399",
+      "saving":"2591",
+      "discount":"65%"
+    },{
+      "id": 6,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/7499af44-9d7a-489c-80f0-51f7799289e4_400x.png?v=1625045491",
+      "title": "boAt Rockerz 450",
+      "rating":"4.8",
+      "reviews": "121",
+      "price":"7,990",
+      "dic_price":"2,999",
+      "saving":"4991",
+      "discount":"62%"
+    },
+    {
+      "id": 7,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/0893f345-8dbf-4b30-a3fd-8f717bb34d93_400x.png?v=1625045856",
+      "title": "boAt Rockerz 510",
+      "rating":"5.0",
+      "reviews": "2",
+      "price":"2,990",
+      "dic_price":"1,299",
+      "saving":"1691",
+      "discount":"57%"
+    },
+    {
+      "id": 8,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c9b304e6-1451-4ac7-95a1-5aa1cf51df05_400x.png?v=1625046144",
+      "title": "boAt Rockerz 550",
+      "rating":"4.9",
+      "reviews": "146",
+      "price":"3,990",
+      "dic_price":"1,399",
+      "saving":"2591",
+      "discount":"65%"
+    }
+  ],
+
+
+  "TopEarbuds": [
+    {
+      "id": 1,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/402-main-img_400x.png?v=1630059242",
+      "title": "boAt Airdopes 402-Wireless",
+      "rating":"4.8",
+      "reviews": "133",
+      "price":"3,490",
+      "dic_price":"1,299",
+      "saving":"219",
+      "discount":"63%"
+    },
+    {
+      "id": 2,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/airdopes-121-v2-blue_400x.png?v=1612765376",
+      "title": "boAt Airdopes 121 v2",
+      "rating":"4.8",
+      "reviews": "466",
+      "price":"2,990",
+      "dic_price":"1,099",
+      "saving":"1900",
+      "discount":"63%"
+    },{
+      "id": 3,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/a1b32b3b-7ed4-4b58-ade4-088ee08914c4_400x.png?v=1625046016",
+      "title": "boAt Airdopes 441 - Wireless",
+      "rating":"4.8",
+      "reviews": "121",
+      "price":"7,990",
+      "dic_price":"2,999",
+      "saving":"4991",
+      "discount":"62%"
+    },
+    {
+      "id": 4,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_blue_eb862c0f-658f-43a2-99c2-65783233f592_400x.png?v=1641980344",
+      "title": "boAt Airdopes 181",
+      "rating":"5.0",
+      "reviews": "2",
+      "price":"2,990",
+      "dic_price":"1,299",
+      "saving":"1691",
+      "discount":"57%"
+    },
+    {
+      "id": 5,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/218997d1-3fe9-4a19-809c-94a8a2d05273_400x.png?v=1625045659",
+      "title": "boAt Airdopes 441 Pro",
+      "rating":"4.9",
+      "reviews": "146",
+      "price":"3,990",
+      "dic_price":"1,399",
+      "saving":"2591",
+      "discount":"65%"
+    },{
+      "id": 6,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/AD441Pro-FI-DC_Batman02_400x.png?v=1656100016",
+      "title": "Airdopes 441 Pro-Special",
+      "rating":"4.8",
+      "reviews": "121",
+      "price":"7,990",
+      "dic_price":"2,999",
+      "saving":"4991",
+      "discount":"62%"
+    },
+    {
+      "id": 7,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/white_646a8951-94f8-4fdc-9264-f57f6b3c8b00_400x.png?v=1658534328",
+      "title": "boAt Airdopes 148",
+      "rating":"5.0",
+      "reviews": "2",
+      "price":"2,990",
+      "dic_price":"1,299",
+      "saving":"1691",
+      "discount":"57%"
+    },
+    {
+      "id": 8,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/101_400x.png?v=1655788494",
+      "title": "boAt Airdopes 101 Made In",
+      "rating":"4.9",
+      "reviews": "146",
+      "price":"3,990",
+      "dic_price":"1,399",
+      "saving":"2591",
+      "discount":"65%"
+    }
+  ],
+
+
+  "TrendingWired": [
+    {
+      "id": 1,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/103blk_400x.png?v=1574927262",
+      "title": "boAt BassHeads 103",
+      "rating":"4.8",
+      "reviews": "133",
+      "price":"3,490",
+      "dic_price":"1,299",
+      "saving":"219",
+      "discount":"63%"
+    },
+    {
+      "id": 2,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/08119dcb-d777-44af-b556-3492e5b4b7f0_400x.png?v=1625046271",
+      "title": "boAt Bassheads 900",
+      "rating":"4.8",
+      "reviews": "466",
+      "price":"2,990",
+      "dic_price":"1,099",
+      "saving":"1900",
+      "discount":"63%"
+    },{
+      "id": 3,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/2_4996964f-aee4-451a-9e4d-33ee171b439d_400x.png?v=1659689852",
+      "title": "boAt BassHeads 102",
+      "rating":"4.8",
+      "reviews": "121",
+      "price":"7,990",
+      "dic_price":"2,999",
+      "saving":"4991",
+      "discount":"62%"
+    },
+    {
+      "id": 4,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/7d635fe4-8c4c-4c4b-8c00-6065455dc608_400x.png?v=1661502324",
+      "title": "boAt BassHeads 242",
+      "rating":"5.0",
+      "reviews": "2",
+      "price":"2,990",
+      "dic_price":"1,299",
+      "saving":"1691",
+      "discount":"57%"
+    },
+    {
+      "id": 5,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c8ed7c0e-783f-49e6-a3ae-816ae0a8bc85_400x.png?v=1657011606",
+      "title": "boAt BassHeads 152",
+      "rating":"4.9",
+      "reviews": "146",
+      "price":"3,990",
+      "dic_price":"1,399",
+      "saving":"2591",
+      "discount":"65%"
+    },{
+      "id": 6,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/df10451d-1044-42b3-955c-826dc6f4de82_400x.png?v=1625046149",
+      "title": "boAt BassHeads 104",
+      "rating":"4.8",
+      "reviews": "121",
+      "price":"7,990",
+      "dic_price":"2,999",
+      "saving":"4991",
+      "discount":"62%"
+    },
+    {
+      "id": 7,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/553af994-244a-4b81-9d9e-9967a1b966b3_400x.png?v=1656750183",
+      "title": "boAt BassHeads 100",
+      "rating":"5.0",
+      "reviews": "2",
+      "price":"2,990",
+      "dic_price":"1,299",
+      "saving":"1691",
+      "discount":"57%"
+    },
+    {
+      "id": 8,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main2_743eb2f9-663e-4359-ae9d-192e5f0ed056_400x.png?v=1623832759",
+      "title": "boAt BassHeads 105",
+      "rating":"4.9",
+      "reviews": "146",
+      "price":"3,990",
+      "dic_price":"1,399",
+      "saving":"2591",
+      "discount":"65%"
+    }
+  ],
+
+
+  "TrendingANC": [
+    {
+      "id": 1,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main1_c5f9fe7c-c012-4d93-ba0c-b25267c0560d_400x.png?v=1647426797",
+      "title": "boAt Airdopes 411 ANC",
+      "rating":"4.8",
+      "reviews": "133",
+      "price":"3,490",
+      "dic_price":"1,299",
+      "saving":"219",
+      "discount":"63%"
+    },
+    {
+      "id": 2,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/1_2_400x.png?v=1657293557",
+      "title": "Rockerz 330 ANC",
+      "rating":"4.8",
+      "reviews": "466",
+      "price":"2,990",
+      "dic_price":"1,099",
+      "saving":"1900",
+      "discount":"63%"
+    },{
+      "id": 3,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/413-green_400x.png?v=1658298863",
+      "title": "boAt Airdopes 413 ANC",
+      "rating":"4.8",
+      "reviews": "121",
+      "price":"7,990",
+      "dic_price":"2,999",
+      "saving":"4991",
+      "discount":"62%"
+    },
+    {
+      "id": 4,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/3_1_600x.png?v=1657284400",
+      "title": "Rockerz 333 ANC",
+      "rating":"5.0",
+      "reviews": "2",
+      "price":"2,990",
+      "dic_price":"1,299",
+      "saving":"1691",
+      "discount":"57%"
+    },
+    {
+      "id": 5,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_blue_708eb679-d90c-4287-83e7-60a83fe6b09e_400x.png?v=1650020838",
+      "title": "boAt Airdopes 500 ANC",
+      "rating":"4.9",
+      "reviews": "146",
+      "price":"3,990",
+      "dic_price":"1,399",
+      "saving":"2591",
+      "discount":"65%"
+    },{
+      "id": 6,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Product-Image_9acbc667-f247-465a-b36c-e9fe8b4265ec_400x.png?v=1626862564",
+      "title": "boAt Airdopes 501 ANC",
+      "rating":"4.8",
+      "reviews": "121",
+      "price":"7,990",
+      "dic_price":"2,999",
+      "saving":"4991",
+      "discount":"62%"
+    }
+  ],
+  "BoatSuperheroesDC": [
+    {
+      "id": 1,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-image_e269db64-c847-4f30-b904-ccb4d973ae52_400x.png?v=1655526604",
+      "title": "Airdopes 131 DC Edition",
+      "rating":"4.8",
+      "reviews": "133",
+      "price":"3,490",
+      "dic_price":"1,299",
+      "saving":"219",
+      "discount":"63%"
+    },
+    {
+      "id": 2,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/3_4_400x.png?v=1655534211",
+      "title": "Rockerz 450 DC edition",
+      "rating":"4.8",
+      "reviews": "466",
+      "price":"2,990",
+      "dic_price":"1,099",
+      "saving":"1900",
+      "discount":"63%"
+    },{
+      "id": 3,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/05_3883bbea-582e-419f-a477-7dd4b7935489_400x.jpg?v=1656102086",
+      "title": "Rockerz 450-Batman DC",
+      "rating":"4.8",
+      "reviews": "121",
+      "price":"7,990",
+      "dic_price":"2,999",
+      "saving":"4991",
+      "discount":"62%"
+    },
+    {
+      "id": 4,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-image-2_400x.png?v=1655534170",
+      "title": "Stone 190 DC Edition",
+      "rating":"5.0",
+      "reviews": "2",
+      "price":"2,990",
+      "dic_price":"1,299",
+      "saving":"1691",
+      "discount":"57%"
+    },
+    {
+      "id": 5,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/S190-FI-DC_WW02_a7ba0e48-779c-4625-acb9-2f79310b4c8b_400x.png?v=1656101346",
+      "title": "Stone 190 Wonder Woman DC",
+      "rating":"4.9",
+      "reviews": "146",
+      "price":"3,990",
+      "dic_price":"1,399",
+      "saving":"2591",
+      "discount":"65%"
+    },{
+      "id": 6,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/03_4ac3cfb6-1075-4376-9dc1-51bdf79b8558_400x.jpg?v=1656100876",
+      "title": "Airdopes 131-Wonder",
+      "rating":"4.8",
+      "reviews": "121",
+      "price":"7,990",
+      "dic_price":"2,999",
+      "saving":"4991",
+      "discount":"62%"
+    },
+    {
+      "id": 7,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/03_1c93ea5b-186e-4418-a8cb-c97698b52d4c_400x.jpg?v=1656100829",
+      "title": "Airdopes 131-Superman DC",
+      "rating":"5.0",
+      "reviews": "2",
+      "price":"2,990",
+      "dic_price":"1,299",
+      "saving":"1691",
+      "discount":"57%"
+    },
+    {
+      "id": 8,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/S190-FI-DC_Batman02_e76ad38a-6cd0-41d9-aba5-7e7ec1e6f54e_400x.png?v=1656101320",
+      "title": "Stone 190-Batman DC Edition",
+      "rating":"4.9",
+      "reviews": "146",
+      "price":"3,990",
+      "dic_price":"1,399",
+      "saving":"2591",
+      "discount":"65%"
+    }
+  ],
+
+  "BoatSuperheroesMarvel": [
+    {
+      "id": 1,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/IM131-main_400x.png?v=1639988622",
+      "title": "boAt Airdopes 131-Iron Man",
+      "rating":"4.8",
+      "reviews": "133",
+      "price":"3,490",
+      "dic_price":"1,299",
+      "saving":"219",
+      "discount":"63%"
+    },
+    {
+      "id": 2,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/AD131-FI-CaptainsBlue06_400x.png?v=1655112365",
+      "title": "boAt Airdopes 131-Captain",
+      "rating":"4.8",
+      "reviews": "466",
+      "price":"2,990",
+      "dic_price":"1,099",
+      "saving":"1900",
+      "discount":"63%"
+    },{
+      "id": 3,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/DisneyStormPackaging3.1591_400x.png?v=1640110480",
+      "title": "boAt Watch Storm-Captain",
+      "rating":"4.8",
+      "reviews": "121",
+      "price":"7,990",
+      "dic_price":"2,999",
+      "saving":"4991",
+      "discount":"62%"
+    },
+    {
+      "id": 4,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/190a_400x.png?v=1640070142",
+      "title": "boAt Stone 190-Stark Fusion",
+      "rating":"5.0",
+      "reviews": "2",
+      "price":"2,990",
+      "dic_price":"1,299",
+      "saving":"1691",
+      "discount":"57%"
+    },
+    {
+      "id": 5,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/450bp_400x.png?v=1639990661",
+      "title": "boAt Rockerz 450-Black",
+      "rating":"4.9",
+      "reviews": "146",
+      "price":"3,990",
+      "dic_price":"1,399",
+      "saving":"2591",
+      "discount":"65%"
+    },{
+      "id": 6,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/450ca_400x.png?v=1639990534",
+      "title": "boAt Rockerz 450-Captain",
+      "rating":"4.8",
+      "reviews": "121",
+      "price":"7,990",
+      "dic_price":"2,999",
+      "saving":"4991",
+      "discount":"62%"
+    },
+    {
+      "id": 7,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/190bp_400x.png?v=1639989950",
+      "title": "boAt Stone 190 - Black",
+      "rating":"5.0",
+      "reviews": "2",
+      "price":"2,990",
+      "dic_price":"1,299",
+      "saving":"1691",
+      "discount":"57%"
+    },
+    {
+      "id": 8,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/190ca_400x.png?v=1639989015",
+      "title": "boAt Stone 190-Captain",
+      "rating":"4.9",
+      "reviews": "146",
+      "price":"3,990",
+      "dic_price":"1,399",
+      "saving":"2591",
+      "discount":"65%"
+    }
+  ],
+
+  "HomeAudio": [
+    {
+      "id": 1,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/01_1d174cd4-5898-4449-a249-d414a0205e47_400x.jpg?v=1659966176",
+      "title": "Aavante Bar 503",
+      "rating":"4.8",
+      "reviews": "133",
+      "price":"3,490",
+      "dic_price":"1,299",
+      "saving":"219",
+      "discount":"63%"
+    },
+    {
+      "id": 2,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Ab-550_400x.png?v=1639053174",
+      "title": "boAt Aavante Bar 550",
+      "rating":"4.8",
+      "reviews": "466",
+      "price":"2,990",
+      "dic_price":"1,099",
+      "saving":"1900",
+      "discount":"63%"
+    },{
+      "id": 3,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/aavante-bar-1160-2_b0b3aa4f-c695-4157-857c-1864c2ac947f_400x.png?v=1629091906",
+      "title": "boAt Aavante Bar 1150",
+      "rating":"4.8",
+      "reviews": "121",
+      "price":"7,990",
+      "dic_price":"2,999",
+      "saving":"4991",
+      "discount":"62%"
+    },
+    {
+      "id": 4,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/73630972-9d9d-416b-aeeb-861374dfc7a7_400x.png?v=1623813139",
+      "title": "boAt Aavante Bar 1300",
+      "rating":"5.0",
+      "reviews": "2",
+      "price":"2,990",
+      "dic_price":"1,299",
+      "saving":"1691",
+      "discount":"57%"
+    },
+    {
+      "id": 5,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/450bp_400x.png?v=1639990661",
+      "title": "boAt Aavante Bar 1300",
+      "rating":"4.9",
+      "reviews": "146",
+      "price":"3,990",
+      "dic_price":"1,399",
+      "saving":"2591",
+      "discount":"65%"
+    },{
+      "id": 6,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-image_2_1_600x.png?v=1656914178",
+      "title": "boAt Aavante Bar 1180",
+      "rating":"4.8",
+      "reviews": "121",
+      "price":"7,990",
+      "dic_price":"2,999",
+      "saving":"4991",
+      "discount":"62%"
+    },
+    {
+      "id": 7,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/aavante-bar-1160-2_400x.png?v=1613457301",
+      "title": "boAt Aavante Bar 1160",
+      "rating":"5.0",
+      "reviews": "2",
+      "price":"2,990",
+      "dic_price":"1,299",
+      "saving":"1691",
+      "discount":"57%"
+    },
+    {
+      "id": 8,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/f6f2331a-5616-4b54-b400-0fbd8e7ce451_400x.png?v=1625046020",
+      "title": "boAt Aavante Bar 1700D",
+      "rating":"4.9",
+      "reviews": "146",
+      "price":"3,990",
+      "dic_price":"1,399",
+      "saving":"2591",
+      "discount":"65%"
+    },
+    {
+      "id": 9,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/ABAaupera-FI02_400x.png?v=1657437576",
+      "title": "boAt Aavante Bar Aaupera",
+      "rating":"4.9",
+      "reviews": "146",
+      "price":"3,990",
+      "dic_price":"1,399",
+      "saving":"2591",
+      "discount":"65%"
+    }
+  ]
 }
+

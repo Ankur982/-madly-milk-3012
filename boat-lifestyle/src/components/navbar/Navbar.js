@@ -207,7 +207,7 @@ export const Navbar = () => {
             Shop <img src={downArrowIcon} alt="arrow-Icon" />
             <Collection className="navbar-collection" />
           </span>
-          <span>Daily Deals</span>
+          <span>boAt Days 2022</span>
           <span>
             <Link to="/pages/sound-of-champions">Offer Zone</Link>{" "}
           </span>

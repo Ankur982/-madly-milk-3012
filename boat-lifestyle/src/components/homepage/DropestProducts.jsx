@@ -1,7 +1,7 @@
 import { Button } from "@chakra-ui/react";
 import React, { useState } from "react";
 import styled from "styled-components";
-import data1 from "../db.json";
+import data from "../db.json";
 
 const BestSellerBox = styled.div`
   width: 92%;
@@ -60,8 +60,10 @@ const BestSellerBox = styled.div`
   }
 `;
 
+
+
 export const DropestProducts = () => {
-  const [bestSellerItem, setBestSellerItem] = useState(data1.BestSellers);
+  const [bestSellerItem, setBestSellerItem] = useState(data.DropestProduct);
 
   return (
     <>
@@ -79,7 +81,7 @@ export const DropestProducts = () => {
       <BestSellerBox>
         {bestSellerItem &&
           bestSellerItem.map((e) => (
-            <div className="BestSellerItem">
+            <div key={e.id} className="BestSellerItem">
               <div className="BestSellerItemImage">
                 <img src={e.image} alt="logo" />
               </div>

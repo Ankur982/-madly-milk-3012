@@ -5,6 +5,7 @@ const Container = styled.div`
     height: 650px;
     padding-top: 76px;
     padding-bottom: 120px;
+    margin-bottom:-40px;
 
     .category {
         border-bottom: 2px solid white;

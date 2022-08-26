@@ -1,7 +1,7 @@
 import { Button } from "@chakra-ui/react";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import data1 from "../db.json";
+import data from "../db.json";
 
 const BestSellerBox = styled.div`
   width: 92%;
@@ -60,8 +60,25 @@ const BestSellerBox = styled.div`
   }
 `;
 
+
+const superHerosBtn={
+  textAlign:"center",
+  margin:"40px"
+}
+
+
 export const BoatSuperheroes = () => {
-  const [bestSellerItem, setBestSellerItem] = useState(data1.BestSellers);
+  const [bestSellerItem, setBestSellerItem] = useState(data.BoatSuperheroesDC);
+  const [heroes, setHeroes] = useState(false);
+
+
+  useEffect(()=>{
+    if(heroes){
+      setBestSellerItem(data.BoatSuperheroesMarvel)
+    }else{
+      setBestSellerItem(data.BoatSuperheroesDC)
+    }
+  },[heroes])
 
   return (
     <>
@@ -70,24 +87,26 @@ export const BoatSuperheroes = () => {
           fontSize: "30px",
           fontWeight: "700",
           textAlign: "center",
-          margin:"50px 0",
+          margin: "50px 0",
           color: "white",
         }}
       >
         boAt | Superheroes
       </h1>
-      <div>
-      <Button colorScheme='teal' variant='ghost'>
-      DC
-  </Button>
-  <Button colorScheme='teal' variant='ghost'>
-  Marvel
-  </Button>
+      <div style={superHerosBtn}>
+        <Button  color="white" variant="ghost" onClick={() => setHeroes(false)}>
+          DC
+        </Button>
+        <Button  color="white" variant="ghost" onClick={() => setHeroes(true)}>
+          Marvel
+        </Button>
       </div>
+
+
       <BestSellerBox>
         {bestSellerItem &&
           bestSellerItem.map((e) => (
-            <div className="BestSellerItem">
+            <div  className="BestSellerItem" key={e.id}>
               <div className="BestSellerItemImage">
                 <img src={e.image} alt="logo" />
               </div>

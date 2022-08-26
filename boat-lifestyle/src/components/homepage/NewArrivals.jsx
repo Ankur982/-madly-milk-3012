@@ -4,47 +4,50 @@ import styled from "styled-components";
 import data from "../db.json";
 
 const BestSellerBox = styled.div`
-  width: 92%;
+  width: 98%;
   margin: auto;
   display: flex;
   gap: 20px;
   line-height: 25px;
   overflow: scroll;
   overflow-y: hidden;
+  margin-top: 50px;
 
   .BestSellerItem {
     background-color: #e3e3e3;
-    border: 1px solid white;
-    width: 331px;
-    height: 420px;
-    border: 1px solid white;
+    width: 240px;
+    height: 540px;
     color: white;
     margin: auto;
-    border-radius: 20px;
+    text-align: center;
+  }
+
+  .BestSellerItemImage video {
+    height: 405px;
+    autoplay
+    loop
   }
 
   .BestSellerItemDetails {
     margin: auto;
-    margin: 7px;
-    height: 165px;
+    height: 135px;
+    width: 240px;
     border: 1px solid white;
     background-color: white;
     color: black;
     height: 163px;
-    padding: 5px 12px 10px;
     border-radius: 10px;
   }
 
-  .BestSellerItemImage img {
-    display: block;
-    margin: auto;
-    height: 248px;
-  }
-
   .itemTitle {
-    fonst-size: 15px;
+    fonst-size: 20px;
     font-weight: 600;
     color: black;
+  }
+
+  .typeTxt {
+    color: red;
+    font-weight: 600;
   }
 
   .itemRev {
@@ -52,7 +55,8 @@ const BestSellerBox = styled.div`
   }
 
   .itemDesc span {
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: 600;
   }
   .itemSav {
     font-size: 12px;
@@ -60,37 +64,29 @@ const BestSellerBox = styled.div`
   }
 `;
 
-export const TopEarbuds = () => {
-  const [bestSellerItem, setBestSellerItem] = useState(data.TopEarbuds);
+export const NewArrivals = () => {
+  const [bestSellerItem, setBestSellerItem] = useState(data.NewArrivals);
 
   return (
     <>
-      <h1
-        style={{
-          fontSize: "30px",
-          fontWeight: "700",
-          textAlign: "center",
-          margin:"50px 0",
-          color: "white",
-        }}
-      >
-        Top Earbuds
-      </h1>
       <BestSellerBox>
         {bestSellerItem &&
           bestSellerItem.map((e) => (
             <div key={e.id} className="BestSellerItem">
               <div className="BestSellerItemImage">
-                <img src={e.image} alt="logo" />
+              <video
+                    src={e.video}
+                    loop
+                    autoPlay
+                    muted
+                ></video>
               </div>
 
               <div className="BestSellerItemDetails">
                 <h1 className="itemTitle">{e.title}</h1>
-                <p className="itemRev">
-                  {" "}
-                  ⭐{e.rating} | {e.reviews} reviews
-                </p>
+                <p className="itemRev">{e.title}</p>
                 <hr />
+                <p className="typeTxt">New Arrivals</p>
                 <p className="itemDesc">
                   <span style={{ color: "red", fontWeight: "600" }}>
                     ₹ {e.dic_price}
@@ -99,12 +95,6 @@ export const TopEarbuds = () => {
                     <del>₹ {e.price}</del>
                   </span>{" "}
                 </p>
-                <p className="itemSav">
-                  You Save: ₹ {e.saving} ({e.discount})
-                </p>
-                <Button w="294px" h="37px" bg="#ff0000" color="white" size="lg">
-                  ADD TO CART
-                </Button>
               </div>
             </div>
           ))}
