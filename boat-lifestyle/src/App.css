@@ -40,4 +40,10 @@
 }
 
 
+#customer_name::placeholder,#customer_lname::placeholder,#customer_password::placeholder,#customer_email::placeholder{
+  color: #9d938b;
+  opacity: 1;
+}
+
+
 

@@ -13,7 +13,6 @@ import { TextScroller } from "./TextScroller";
 
 const Foot = styled.div`
     width: 100%;
-    margin-bottom: 50px;
     background-color: black;
 `;
 
