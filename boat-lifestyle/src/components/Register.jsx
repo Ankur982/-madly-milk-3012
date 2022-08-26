@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styled from "styled-components";
 import axios from "axios";
 import { Link, Navigate } from "react-router-dom";
@@ -127,16 +127,16 @@ export function Register() {
 
     const postData = async () => {
         try {
-            await axios.post("http://localhost:3002/users", data);
+            await axios.post("http://localhost:3000/users", data);
             setFlag(true);
         } catch (e) {
             alert("Invalid Input");
         }
     };
-
     return (
         <Container>
-                <div className="cont2">
+            <div className="cont">
+            <div className="cont2">
                     <div className="heading">
                         <h2>Register</h2>
                     </div>
@@ -197,7 +197,76 @@ export function Register() {
                         <Navigate to="/account/register" />
                     )}
                 </div>
-          
+            </div>
         </Container>
     );
 }
+
+
+
+
+
+
+
+
+// <div className="cont2">
+//                     <div className="heading">
+//                         <h2>Register</h2>
+//                     </div>
+//                     <p>Please fill in the fields below:</p>
+//                     <Form onSubmit={handleSubmit}>
+//                         <div className="input-box">
+//                             <input
+//                                 required
+//                                 name="first_name"
+//                                 onChange={handleChange}
+//                                 type="text"
+//                                 id="customer_name"
+//                                 placeholder="First name"
+//                             />
+//                         </div>
+//                         <div className="input-box">
+//                             <input
+//                                 required
+//                                 name="last_name"
+//                                 onChange={handleChange}
+//                                 type="text"
+//                                 id="customer_lname"
+//                                 placeholder="last name"
+//                             />
+//                         </div>
+//                         <div className="input-box">
+//                             <input
+//                                 required
+//                                 name="email"
+//                                 onChange={handleChange}
+//                                 type="email"
+//                                 id="customer_email"
+//                                 placeholder="E-mail"
+//                             />
+//                         </div>
+//                         <div className="input-box">
+//                             <input
+//                                 required
+//                                 name="password"
+//                                 onChange={handleChange}
+//                                 type="password"
+//                                 id="customer_password"
+//                                 placeholder="Password"
+//                             />
+//                         </div>
+//                         <div className="action-bottom">
+//                             <p>
+//                                 <input type="submit" value="Create" />
+//                             </p>
+//                             <span>
+//                             Already have an account?<Link to="/account/login">Login</Link>    
+//                             </span>
+//                         </div>
+//                     </Form>
+//                     {flag ? (
+//                         <Navigate to="/account/login" />
+//                     ) : (
+//                         <Navigate to="/account/register" />
+//                     )}
+//                 </div>
