@@ -5,13 +5,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ChakraProvider } from '@chakra-ui/react'
 import { BrowserRouter } from 'react-router-dom';
+import { Navbar } from './components/navbar/Navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
      <BrowserRouter>
      <ChakraProvider>
+    <Navbar>
     <App />
+    </Navbar>
     </ChakraProvider>
     </BrowserRouter>
   </React.StrictMode>

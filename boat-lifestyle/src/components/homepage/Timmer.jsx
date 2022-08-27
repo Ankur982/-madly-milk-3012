@@ -1,4 +1,7 @@
+import { Button } from "@chakra-ui/react";
 import { useRef, useState } from "react";
+import { Navigate } from "react-router";
+import { Link } from "react-router-dom";
 
 const addZeroToNumber = (time) => (time < 10 ? "0" + time : time);
 
@@ -10,6 +13,8 @@ const formatTimeToString = (time) => {
     second
   )}`;
 };
+
+
 
 export default function Timer() {
   const [time, setTime] = useState(10000);
@@ -23,14 +28,15 @@ export default function Timer() {
 
   useState(() => {
     startTimer()
-    return () => {
-      stopTimer();
-    };
   }, []);
 
   return (
-    <div>
-      <h1>{formatTimeToString(time)}</h1>
+    <>
+    <div style={{display:"flex",justifyContent:"center",alignItems:"center", gap:"100px", border:"1px solid white", width:"450px",height:"40px", margin:"auto",backgroundColor:"#fbc50a", padding:"0,10px", borderRadius:"10px", marginTop:"50px"}}>
+      <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/thunder_2.png?v=1655103798" alt="logo" /><b>Daily Deal</b>
+      <h1>Ending In: {formatTimeToString(time)}</h1>
     </div>
+    <Link to="/productitemspage"><Button bg={"red"} color={"white"} style={{display:"block",margin:"auto", marginTop:"10px"}}>View More</Button></Link>
+    </>
   );
 }

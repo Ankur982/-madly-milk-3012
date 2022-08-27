@@ -126,7 +126,6 @@ export function ComplexSlider() {
             color: ["red", "black", "blue"],
         },
     ];
-
     return (
         <Container>
             <div className="category">

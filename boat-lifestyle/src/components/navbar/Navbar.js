@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 // importing Custom sub-Components
 import { Collection, SearchResults } from "./NavHover";
@@ -12,7 +12,7 @@ import searchIcon from "../../assets/search-icon.svg";
 import couponIcon from "../../assets/coupon-icon.svg";
 import avatarIcon from "../../assets/avatar-icon.svg";
 import cartIcon from "../../assets/cart-icon.svg";
-import { useEffect, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 
 const NavbarContainre = styled.div`
   position: fixed;
@@ -188,11 +188,26 @@ const mystyle = {
   top: "0px",
   zIndex: 1000,
 };
-export const Navbar = () => {
+
+export const AppContext = createContext()
+
+export const Navbar = ({children}) => {
   const [flag, setFlag] = useState(false);
+  const [input, setInput] = useState("")
+const navigate = useNavigate();
+
+function handlekey(e){
+  if(e.key==="Enter"){
+    setInput(e.target.value)
+    navigate("/productitemspage")
+  }
+}
 
   return (
     <>
+    <AppContext.Provider value={input}>
+    {children}
+    </AppContext.Provider>
       <div style={mystyle}>
         <p>All your favourite boAt products at heavy bargains. Shop NOW!</p>
       </div>
@@ -209,7 +224,7 @@ export const Navbar = () => {
           </span>
           <span>boAt Days 2022</span>
           <span>
-            <Link to="/pages/sound-of-champions">Offer Zone</Link>{" "}
+            <Link to="/pages/offer-zone">Offer Zone</Link>{" "}
           </span>
           <span>
             More <img src={downArrowIcon} alt="arrow-Icon" />
@@ -227,6 +242,7 @@ export const Navbar = () => {
               color="black"
               borderRadius="50px"
               placeholder="Search Product"
+              onKeyDown={(e)=> handlekey(e)}
             />
           </InputGroup>
 

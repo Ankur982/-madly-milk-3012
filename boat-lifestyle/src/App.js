@@ -5,7 +5,8 @@ import { Register } from './components/Register';
 import { Navbar } from './components/navbar/Navbar';
 import { Footer } from './components/Footer';
 import { Login } from './components/Login';
-import ProductPage from './components/ProductPage/ProductPage';
+import { ProductItemsPage } from './components/ProductItemsPage/ProductCollection';
+
 
 
 
@@ -17,12 +18,10 @@ import ProductPage from './components/ProductPage/ProductPage';
 function App() {
   return (
     <div className="App">
-      {/* <AllRoutes/> */}
-      <Navbar/>
-    {/* <Register/> */}
-    {/* <Login/> */}
-    <ProductPage/>
-      <Footer/>
+      <AllRoutes/>
+    {/* <Navbar/>
+    <ProductItemsPage/>
+    <Footer/>  */}
     </div>
   );
 }

@@ -113,7 +113,7 @@ margin-top:30px;
 
 export function Register() {
     const [data, setData] = useState({});
-    const [flag, setFlag] = useState(false); //to check if registration was successful
+    const [flag, setFlag] = useState(false); 
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -205,68 +205,3 @@ export function Register() {
 
 
 
-
-
-
-
-// <div className="cont2">
-//                     <div className="heading">
-//                         <h2>Register</h2>
-//                     </div>
-//                     <p>Please fill in the fields below:</p>
-//                     <Form onSubmit={handleSubmit}>
-//                         <div className="input-box">
-//                             <input
-//                                 required
-//                                 name="first_name"
-//                                 onChange={handleChange}
-//                                 type="text"
-//                                 id="customer_name"
-//                                 placeholder="First name"
-//                             />
-//                         </div>
-//                         <div className="input-box">
-//                             <input
-//                                 required
-//                                 name="last_name"
-//                                 onChange={handleChange}
-//                                 type="text"
-//                                 id="customer_lname"
-//                                 placeholder="last name"
-//                             />
-//                         </div>
-//                         <div className="input-box">
-//                             <input
-//                                 required
-//                                 name="email"
-//                                 onChange={handleChange}
-//                                 type="email"
-//                                 id="customer_email"
-//                                 placeholder="E-mail"
-//                             />
-//                         </div>
-//                         <div className="input-box">
-//                             <input
-//                                 required
-//                                 name="password"
-//                                 onChange={handleChange}
-//                                 type="password"
-//                                 id="customer_password"
-//                                 placeholder="Password"
-//                             />
-//                         </div>
-//                         <div className="action-bottom">
-//                             <p>
-//                                 <input type="submit" value="Create" />
-//                             </p>
-//                             <span>
-//                             Already have an account?<Link to="/account/login">Login</Link>    
-//                             </span>
-//                         </div>
-//                     </Form>
-//                     {flag ? (
-//                         <Navigate to="/account/login" />
-//                     ) : (
-//                         <Navigate to="/account/register" />
-//                     )}
-//                 </div>

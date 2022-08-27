@@ -271,6 +271,7 @@ export function Login() {
   const getData = async () => {
     const res = await axios.get("http://localhost:3000/users");
     setData(res.data);
+    
   };
 
   const handleSubmit = (e) => {
@@ -294,7 +295,7 @@ export function Login() {
   useEffect(() => {
     getData();
   }, []);
-
+  console.log(data)
   return forgotPass === "first" ? (
     <Container>
       <div className="cont">
@@ -342,7 +343,7 @@ export function Login() {
               <p>
                 <input type="submit" value="Sign In" className="btn" />
               </p>
-              <span>New customer?<Link to="/accountregister">Create account{" "}</Link></span>
+              <span>New customer?<Link to="/account/register">Create account{" "}</Link></span>
             </div>
           </Form>
           {flag ? <Navigate to="/" /> : ""}

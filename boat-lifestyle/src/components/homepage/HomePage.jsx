@@ -13,6 +13,7 @@ import { ImageSlider3 } from "./ImageSlider3";
 import { InThePress } from "./InThePress";
 import { NewArrivals } from "./NewArrivals";
 import { SmartWatches } from "./SmartWatches";
+import Timer from "./Timmer";
 import { TopEarbuds } from "./TopEarbuds";
 import { TrendingANC } from "./TrendingANC";
 import { TrendingWired } from "./TrendingWired";
@@ -27,6 +28,7 @@ export const HomePage = () => {
       <ImageSlider1 />
       <ComplexSlider />
       <BestSeller />
+      <Timer/>
       <DailyDeal />
       <DropestProducts />
       <NewArrivals />
