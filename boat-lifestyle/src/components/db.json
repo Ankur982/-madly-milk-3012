@@ -1026,6 +1026,103 @@
       "saving":"2591",
       "discount":"65%"
     }
+  ],
+  "BoatDay": [
+    {
+      "id": 93,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/back_600x.png?v=1657869596",
+      "title": "boAt Airdopes 141",
+      "rating":"4.8",
+      "reviews": "143",
+      "price":"4,490",
+      "dic_price":"1,399",
+      "saving":"3091",
+      "discount":"69%"
+    },
+    {
+      "id": 94,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/553af994-244a-4b81-9d9e-9967a1b966b3_200x.png?v=1656750183",
+      "title": "boAt BassHeads 100",
+      "rating":"4.6",
+      "reviews": "496",
+      "price":"990",
+      "dic_price":"379",
+      "saving":"620",
+      "discount":"62%"
+    },{
+      "id":95,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/7499af44-9d7a-489c-80f0-51f7799289e4_200x.png?v=1625045491",
+      "title": "boAt Rockerz 450",
+      "rating":"4.9",
+      "reviews": "1,299",
+      "price":"3,990",
+      "dic_price":"2,691",
+      "saving":"2691",
+      "discount":"67%"
+    },
+    {
+      "id": 96,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/30dfe040-9190-49ad-9ba5-b8f2ae9148ba_200x.png?v=1625046023",
+      "title": "boAt BassHeads 225",
+      "rating":"5.0",
+      "reviews": "242",
+      "price":"999",
+      "dic_price":"399",
+      "saving":"600",
+      "discount":"60%"
+    },
+    {
+      "id": 97,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main2_743eb2f9-663e-4359-ae9d-192e5f0ed056_200x.png?v=1623832759",
+      "rating":"4.9",
+      "reviews": "246",
+      "price":"999",
+      "dic_price":"299",
+      "saving":"700",
+      "discount":"70%"
+    },{
+      "id": 98,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/218997d1-3fe9-4a19-809c-94a8a2d05273_200x.png?v=1625045659",
+      "title": "boAt Airdopes 441 Pro - Bluetooth Wireless Earbuds",
+      "rating":"4.8",
+      "reviews": "121",
+      "price":"5,999",
+      "dic_price":"2,499",
+      "saving":"3591",
+      "discount":"58%"
+    },
+    {
+      "id": 99,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/3b9db779-1d2f-4d55-a264-788c1eaba5ec_200x.png?v=1625046595",
+      "title": "boAt Rockerz 261",
+      "rating":"5.0",
+      "reviews": "2",
+      "price":"4,990",
+      "dic_price":"899",
+      "saving":"4097",
+      "discount":"82%"
+    },
+    {
+      "id": 100,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/05d397a6-a8b8-4959-9973-578186e8a1e1_200x.png?v=1625045376",
+      "title":"boAt BassHeads 172",
+      "rating":"4.9",
+      "reviews": "846",
+      "price":"1299",
+      "dic_price":"399",
+      "saving":"900",
+      "discount":"70%"
+    },
+    {
+      "id": 101,
+      "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main2_743eb2f9-663e-4359-ae9d-192e5f0ed056_200x.png?v=1623832759",
+      "rating":"4.9",
+      "reviews": "246",
+      "price":"999",
+      "dic_price":"299",
+      "saving":"700",
+      "discount":"70%"
+    }
   ]
 }
 

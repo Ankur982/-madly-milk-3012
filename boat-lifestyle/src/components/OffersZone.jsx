@@ -123,8 +123,9 @@ export const OffersZone = () => {
       <Button bg={"red"} color={"white"} margin={"0 10px"} onClick={() => setSortByName((prev) => (prev == "desc" ? "asc" : "desc"))}>{sortByName === "desc" ?  "Sort By Name(ASD)" :"Sort By Name(DESC)"}</Button>
       </div>
       <Timer/>
+      <b style={{color:"white",fontSize:"40px",fontWeight:"600"}}>Offer Zone</b>
       <BestSellerBox>
-        
+       
         {data &&
           data.map((e) => (
             <div key={e.id} className="BestSellerItem" onClick={()=>handleClick(e)}>

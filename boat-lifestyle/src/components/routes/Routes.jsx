@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import { BoatDay } from "../BoatDay";
 import { Errors } from "../Error";
 import { Footer } from "../Footer";
 import { HomePage } from "../homepage/HomePage";
@@ -14,6 +15,17 @@ export function AllRoutes() {
     <>
       <Routes>
         <Route path="/" element={<HomePage />} />
+
+        <Route
+          path="/pages/boat-day"
+          element={
+            <>
+              <Navbar />
+              <BoatDay />
+              <Footer />
+            </>
+          }
+        ></Route>
 
         <Route
           path="/pages/offer-zone"

@@ -137,45 +137,46 @@ const NavbarContainre = styled.div`
 `;
 
 const SearchBox = styled.div`
-  width: 235px;
-  height: 36px;
-  border-radius: 19px;
-  background: white;
-  display: flex;
-  align-items: center;
-  padding: auto 18px;
-  font-size: 16px;
-  font-weight: 300;
-  letter-spacing: 1px;
-  position: relative;
-
-  & img {
-    margin-left: 18px;
-    margin-right: 8px;
-  }
-  input {
-    border: none;
-  }
-
-  input ~ .search-results {
-    position: fixed;
     width: 235px;
-    height: 230px;
-    top: 60px;
-    background: black-gradient;
-    visibility: hidden;
-    opacity: 0;
-    transition: all 0.2s ease 0.5s;
-  }
-  input:focus ~ .search-results {
-    visibility: visible;
-    opacity: 1;
-  }
-`;
+    height: 36px;
+    border-radius: 19px;
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    padding: auto 18px;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    position: relative;
 
+    & img {
+        margin-left: 18px;
+        margin-right: 8px;
+    }
+    input {
+        border: none;
+    }
+
+    input ~ .search-results {
+        position: fixed;
+        width: 235px;
+        height: 230px;
+        top: 60px;
+        background: black-gradient;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.2s ease 0.5s;
+    }
+    input:focus ~ .search-results {
+        visibility: visible;
+        opacity: 1;
+    }
+`;
 const NavbarSpaceHolder = styled.div`
   height: 88px;
 `;
+
+
 
 const mystyle = {
   margin: "auto",
@@ -222,7 +223,8 @@ function handlekey(e){
             Shop <img src={downArrowIcon} alt="arrow-Icon" />
             <Collection className="navbar-collection" />
           </span>
-          <span>boAt Days 2022</span>
+          <span>
+          <Link to="/pages/boat-day">boAt Days 2022</Link></span>
           <span>
             <Link to="/pages/offer-zone">Offer Zone</Link>{" "}
           </span>
@@ -244,6 +246,7 @@ function handlekey(e){
               placeholder="Search Product"
               onKeyDown={(e)=> handlekey(e)}
             />
+            <SearchResults/>
           </InputGroup>
 
           <div>
