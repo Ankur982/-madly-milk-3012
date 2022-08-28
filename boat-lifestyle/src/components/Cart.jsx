@@ -38,6 +38,7 @@ const Cart = () => {
     }
     setData1(local());
     totalPrice();
+    localStorage.setItem("total", JSON.stringify({total}))
     console.log(local())
   }, [temp]);
 
