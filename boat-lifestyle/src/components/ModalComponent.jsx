@@ -14,14 +14,30 @@ import {
   ModalOverlay,
   Text,
 } from "@chakra-ui/react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { AiOutlineHeart } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
 // import Details from "./Details";
 
+const getLocalItem = () =>{
+  return JSON.parse(localStorage.getItem("mensData")) || [];
+
+}
 export function ModalComponent({ isOpen, setIsOpen, data }) {
   const navigate = useNavigate();
+  const [selectedBox, setSelectedBox] = useState({});
+  const [spraid, setSpraid] = useState(getLocalItem());
 
+  const addtoCart = (item) => {
+    setSpraid([...spraid, item]);
+    alert("Item Added.!");
+
+    // console.log("item: ", item);
+  };
+  useEffect(()=>{
+
+    localStorage.setItem("mensData", JSON.stringify(spraid));
+  },[spraid])
   // const Deatils = () => {
   //   navigate("/details");
   // };
@@ -91,6 +107,7 @@ export function ModalComponent({ isOpen, setIsOpen, data }) {
                 fontSize={20}
                 color="white"
                 size="md"
+                onClick={() => addtoCart(data)}
               >
                 ADD TO CART
               </Button>
