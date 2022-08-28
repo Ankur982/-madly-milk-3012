@@ -143,8 +143,8 @@ export const OffersZone = () => {
        
         {data &&
           data.map((e) => (
-            <div key={e.id} className="BestSellerItem" onClick={()=>handleClick(e)}>
-              <div className="BestSellerItemImage">
+            <div key={e.id} className="BestSellerItem" >
+              <div className="BestSellerItemImage" onClick={()=>handleClick(e)}>
                 <img src={e.image} alt="logo" />
               </div>
 
