@@ -7,7 +7,7 @@
       "rating":"4.8",
       "reviews": "1116",
       "price":"2,990",
-      "dic_price":"1,099",
+      "dic_price":1099,
       "saving":"1891",
       "discount":"63%"
     },
@@ -18,7 +18,7 @@
       "rating":"4.8",
       "reviews": "466",
       "price":"2,990",
-      "dic_price":"1,099",
+      "dic_price":1099,
       "saving":"1900",
       "discount":"63%"
     },{
@@ -28,7 +28,7 @@
       "rating":"4.8",
       "reviews": "121",
       "price":"7,990",
-      "dic_price":"2,999",
+      "dic_price":2999,
       "saving":"4991",
       "discount":"62%"
     },
@@ -39,7 +39,7 @@
       "rating":"5.0",
       "reviews": "2",
       "price":"2,990",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"1691",
       "discount":"57%"
     },
@@ -50,7 +50,7 @@
       "rating":"4.9",
       "reviews": "146",
       "price":"3,990",
-      "dic_price":"1,399",
+      "dic_price":1399,
       "saving":"2591",
       "discount":"65%"
     }
@@ -64,7 +64,7 @@
       "rating":"4.8",
       "reviews": "133",
       "price":"3,490",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"219",
       "discount":"63%"
     },
@@ -75,7 +75,7 @@
       "rating":"4.8",
       "reviews": "466",
       "price":"2,990",
-      "dic_price":"1,099",
+      "dic_price":1099,
       "saving":"1900",
       "discount":"63%"
     },{
@@ -85,7 +85,7 @@
       "rating":"4.8",
       "reviews": "121",
       "price":"7,990",
-      "dic_price":"2,999",
+      "dic_price":2999,
       "saving":"4991",
       "discount":"62%"
     },
@@ -96,7 +96,7 @@
       "rating":"5.0",
       "reviews": "2",
       "price":"2,990",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"1691",
       "discount":"57%"
     },
@@ -107,7 +107,7 @@
       "rating":"4.9",
       "reviews": "146",
       "price":"3,990",
-      "dic_price":"1,399",
+      "dic_price":1399,
       "saving":"2591",
       "discount":"65%"
     },{
@@ -117,7 +117,7 @@
       "rating":"4.8",
       "reviews": "121",
       "price":"7,990",
-      "dic_price":"2,999",
+      "dic_price":2999,
       "saving":"4991",
       "discount":"62%"
     },
@@ -128,7 +128,7 @@
       "rating":"5.0",
       "reviews": "2",
       "price":"2,990",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"1691",
       "discount":"57%"
     },
@@ -139,7 +139,7 @@
       "rating":"4.9",
       "reviews": "146",
       "price":"3,990",
-      "dic_price":"1,399",
+      "dic_price":1399,
       "saving":"2591",
       "discount":"65%"
     }
@@ -153,7 +153,7 @@
       "rating":"4.8",
       "reviews": "133",
       "price":"3,490",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"219",
       "discount":"63%"
     },
@@ -164,7 +164,7 @@
       "rating":"4.8",
       "reviews": "466",
       "price":"2,990",
-      "dic_price":"1,099",
+      "dic_price":1099,
       "saving":"1900",
       "discount":"63%"
     },{
@@ -174,7 +174,7 @@
       "rating":"4.8",
       "reviews": "121",
       "price":"7,990",
-      "dic_price":"2,999",
+      "dic_price":2999,
       "saving":"4991",
       "discount":"62%"
     },
@@ -184,7 +184,7 @@
       "title": "boAt Xtend Pro",
       "rating":"5.0",
       "reviews": "2",
-      "price":"2,990",
+      "price":2990,
       "dic_price":"1,299",
       "saving":"1691",
       "discount":"57%"
@@ -195,7 +195,7 @@
       "title": "boAt Wave Call",
       "rating":"4.9",
       "reviews": "146",
-      "price":"3,990",
+      "price":3990,
       "dic_price":"1,399",
       "saving":"2591",
       "discount":"65%"
@@ -206,7 +206,7 @@
       "rating":"4.8",
       "reviews": "121",
       "price":"7,990",
-      "dic_price":"2,999",
+      "dic_price":2999,
       "saving":"4991",
       "discount":"62%"
     },
@@ -217,7 +217,7 @@
       "rating":"5.0",
       "reviews": "2",
       "price":"2,990",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"1691",
       "discount":"57%"
     },
@@ -228,7 +228,7 @@
       "rating":"4.9",
       "reviews": "146",
       "price":"3,990",
-      "dic_price":"1,399",
+      "dic_price":1399,
       "saving":"2591",
       "discount":"65%"
     }
@@ -241,7 +241,7 @@
       "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/CMF.1028_64x64.png?v=1661155840",
       "title": "Xtend Talk - Premium Design..",
       "price":"6,990",
-      "dic_price":"2,999",
+      "dic_price":2999,
       "saving":"3991",
       "discount":"57%",
       "type":"Smart Watches"
@@ -252,7 +252,7 @@
       "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/1_05260e43-8f0b-4776-a433-ea2089c7f7e7_64x64.png?v=1659614550",
       "title": "boAt Airdopes 141 Pro||12mm..",
       "price":"2,990",
-      "dic_price":"1,499",
+      "dic_price":1499,
       "saving":"1491",
       "discount":"50%",
       "type":"Wireless Earbuds"
@@ -263,7 +263,7 @@
       "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Untitled-5_64x64.png?v=1658294451",
       "title": "boAt Airdopes 141 Pro",
       "price":"6,990",
-      "dic_price":"2,499",
+      "dic_price":2499,
       "saving":"4,491",
       "discount":"64%",
       "type":"Smart Watches"
@@ -274,7 +274,7 @@
       "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Untitled-1_e66c4515-7594-4726-89d6-e2b311a39c94_64x64.png?v=1658436784",
       "title": "boAt Ston 1000v2",
       "price":"6,990",
-      "dic_price":"2,999",
+      "dic_price":2999,
       "saving":"3,991",
       "discount":"57%",
       "type":"Bluetooth Speakers"
@@ -285,7 +285,7 @@
       "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/grey_916612cd-a8da-408e-8ec6-b177df5fa727_1_64x64.png?v=1658150489",
       "title": "boAt Airdopes 131 PRO",
       "price":"2,990",
-      "dic_price":"1,399",
+      "dic_price":1399,
       "saving":"1,691",
       "discount":"57%",
       "type":"Airdopes TWS"
@@ -296,7 +296,7 @@
       "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-image-4_1_64x64.png?v=1656016935",
       "title": "boAt Airdopes 131 PRO",
       "price":"6,990",
-      "dic_price":"3,999",
+      "dic_price":3999,
       "saving":"2,991",
       "discount":"43%",
       "type":"Smart Watches"
@@ -307,7 +307,7 @@
       "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-image-4_1_64x64.png?v=1656016935",
       "title": "boAt Strom Pro",
       "price":"6,990",
-      "dic_price":"3,999",
+      "dic_price":3999,
       "saving":"2,991",
       "discount":"43%",
       "type":"Smart Watches"
@@ -318,7 +318,7 @@
       "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/413-black_64x64.png?v=1658298863",
       "title": "boAt Airdopes TWS",
       "price":"4,990",
-      "dic_price":"2,299",
+      "dic_price":2299,
       "saving":"2,691",
       "discount":"54%",
       "type":"Smart Watches"
@@ -332,7 +332,7 @@
       "rating":"4.8",
       "reviews": "133",
       "price":"3,490",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"219",
       "discount":"63%"
     },
@@ -343,7 +343,7 @@
       "rating":"4.8",
       "reviews": "466",
       "price":"2,990",
-      "dic_price":"1,099",
+      "dic_price":1099,
       "saving":"1900",
       "discount":"63%"
     },{
@@ -353,7 +353,7 @@
       "rating":"4.8",
       "reviews": "121",
       "price":"7,990",
-      "dic_price":"2,999",
+      "dic_price":2999,
       "saving":"4991",
       "discount":"62%"
     },
@@ -364,7 +364,7 @@
       "rating":"5.0",
       "reviews": "2",
       "price":"2,990",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"1691",
       "discount":"57%"
     },
@@ -375,7 +375,7 @@
       "rating":"4.9",
       "reviews": "146",
       "price":"3,990",
-      "dic_price":"1,399",
+      "dic_price":1399,
       "saving":"2591",
       "discount":"65%"
     },{
@@ -385,7 +385,7 @@
       "rating":"4.8",
       "reviews": "121",
       "price":"7,990",
-      "dic_price":"2,999",
+      "dic_price":2999,
       "saving":"4991",
       "discount":"62%"
     },
@@ -396,7 +396,7 @@
       "rating":"5.0",
       "reviews": "2",
       "price":"2,990",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"1691",
       "discount":"57%"
     },
@@ -407,7 +407,7 @@
       "rating":"4.9",
       "reviews": "146",
       "price":"3,990",
-      "dic_price":"1,399",
+      "dic_price":1399,
       "saving":"2591",
       "discount":"65%"
     }
@@ -422,7 +422,7 @@
       "rating":"4.8",
       "reviews": "133",
       "price":"3,490",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"219",
       "discount":"63%"
     },
@@ -433,7 +433,7 @@
       "rating":"4.8",
       "reviews": "466",
       "price":"2,990",
-      "dic_price":"1,099",
+      "dic_price":1099,
       "saving":"1900",
       "discount":"63%"
     },{
@@ -443,7 +443,7 @@
       "rating":"4.8",
       "reviews": "121",
       "price":"7,990",
-      "dic_price":"2,999",
+      "dic_price":2999,
       "saving":"4991",
       "discount":"62%"
     },
@@ -454,7 +454,7 @@
       "rating":"5.0",
       "reviews": "2",
       "price":"2,990",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"1691",
       "discount":"57%"
     },
@@ -465,7 +465,7 @@
       "rating":"4.9",
       "reviews": "146",
       "price":"3,990",
-      "dic_price":"1,399",
+      "dic_price":1399,
       "saving":"2591",
       "discount":"65%"
     },{
@@ -475,7 +475,7 @@
       "rating":"4.8",
       "reviews": "121",
       "price":"7,990",
-      "dic_price":"2,999",
+      "dic_price":2999,
       "saving":"4991",
       "discount":"62%"
     },
@@ -486,7 +486,7 @@
       "rating":"5.0",
       "reviews": "2",
       "price":"2,990",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"1691",
       "discount":"57%"
     },
@@ -497,7 +497,7 @@
       "rating":"4.9",
       "reviews": "146",
       "price":"3,990",
-      "dic_price":"1,399",
+      "dic_price":1399,
       "saving":"2591",
       "discount":"65%"
     }
@@ -512,7 +512,7 @@
       "rating":"4.8",
       "reviews": "133",
       "price":"3,490",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"219",
       "discount":"63%"
     },
@@ -523,7 +523,7 @@
       "rating":"4.8",
       "reviews": "466",
       "price":"2,990",
-      "dic_price":"1,099",
+      "dic_price":1099,
       "saving":"1900",
       "discount":"63%"
     },{
@@ -533,7 +533,7 @@
       "rating":"4.8",
       "reviews": "121",
       "price":"7,990",
-      "dic_price":"2,999",
+      "dic_price":2999,
       "saving":"4991",
       "discount":"62%"
     },
@@ -544,7 +544,7 @@
       "rating":"5.0",
       "reviews": "2",
       "price":"2,990",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"1691",
       "discount":"57%"
     },
@@ -555,7 +555,7 @@
       "rating":"4.9",
       "reviews": "146",
       "price":"3,990",
-      "dic_price":"1,399",
+      "dic_price":1399,
       "saving":"2591",
       "discount":"65%"
     },{
@@ -565,7 +565,7 @@
       "rating":"4.8",
       "reviews": "121",
       "price":"7,990",
-      "dic_price":"2,999",
+      "dic_price":2999,
       "saving":"4991",
       "discount":"62%"
     },
@@ -576,7 +576,7 @@
       "rating":"5.0",
       "reviews": "2",
       "price":"2,990",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"1691",
       "discount":"57%"
     },
@@ -587,7 +587,7 @@
       "rating":"4.9",
       "reviews": "146",
       "price":"3,990",
-      "dic_price":"1,399",
+      "dic_price":1399,
       "saving":"2591",
       "discount":"65%"
     }
@@ -602,7 +602,7 @@
       "rating":"4.8",
       "reviews": "133",
       "price":"3,490",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"219",
       "discount":"63%"
     },
@@ -613,7 +613,7 @@
       "rating":"4.8",
       "reviews": "466",
       "price":"2,990",
-      "dic_price":"1,099",
+      "dic_price":1099,
       "saving":"1900",
       "discount":"63%"
     },{
@@ -623,7 +623,7 @@
       "rating":"4.8",
       "reviews": "121",
       "price":"7,990",
-      "dic_price":"2,999",
+      "dic_price":2999,
       "saving":"4991",
       "discount":"62%"
     },
@@ -634,7 +634,7 @@
       "rating":"5.0",
       "reviews": "2",
       "price":"2,990",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"1691",
       "discount":"57%"
     },
@@ -645,7 +645,7 @@
       "rating":"4.9",
       "reviews": "146",
       "price":"3,990",
-      "dic_price":"1,399",
+      "dic_price":1399,
       "saving":"2591",
       "discount":"65%"
     },{
@@ -655,7 +655,7 @@
       "rating":"4.8",
       "reviews": "121",
       "price":"7,990",
-      "dic_price":"2,999",
+      "dic_price":2999,
       "saving":"4991",
       "discount":"62%"
     },
@@ -666,7 +666,7 @@
       "rating":"5.0",
       "reviews": "2",
       "price":"2,990",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"1691",
       "discount":"57%"
     },
@@ -677,7 +677,7 @@
       "rating":"4.9",
       "reviews": "146",
       "price":"3,990",
-      "dic_price":"1,399",
+      "dic_price":1399,
       "saving":"2591",
       "discount":"65%"
     }
@@ -692,7 +692,7 @@
       "rating":"4.8",
       "reviews": "133",
       "price":"3,490",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"219",
       "discount":"63%"
     },
@@ -703,7 +703,7 @@
       "rating":"4.8",
       "reviews": "466",
       "price":"2,990",
-      "dic_price":"1,099",
+      "dic_price":1099,
       "saving":"1900",
       "discount":"63%"
     },{
@@ -713,7 +713,7 @@
       "rating":"4.8",
       "reviews": "121",
       "price":"7,990",
-      "dic_price":"2,999",
+      "dic_price":2999,
       "saving":"4991",
       "discount":"62%"
     },
@@ -724,7 +724,7 @@
       "rating":"5.0",
       "reviews": "2",
       "price":"2,990",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"1691",
       "discount":"57%"
     },
@@ -735,7 +735,7 @@
       "rating":"4.9",
       "reviews": "146",
       "price":"3,990",
-      "dic_price":"1,399",
+      "dic_price":1399,
       "saving":"2591",
       "discount":"65%"
     },{
@@ -745,7 +745,7 @@
       "rating":"4.8",
       "reviews": "121",
       "price":"7,990",
-      "dic_price":"2,999",
+      "dic_price":2999,
       "saving":"4991",
       "discount":"62%"
     }
@@ -758,7 +758,7 @@
       "rating":"4.8",
       "reviews": "133",
       "price":"3,490",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"219",
       "discount":"63%"
     },
@@ -769,7 +769,7 @@
       "rating":"4.8",
       "reviews": "466",
       "price":"2,990",
-      "dic_price":"1,099",
+      "dic_price":1099,
       "saving":"1900",
       "discount":"63%"
     },{
@@ -779,7 +779,7 @@
       "rating":"4.8",
       "reviews": "121",
       "price":"7,990",
-      "dic_price":"2,999",
+      "dic_price":2999,
       "saving":"4991",
       "discount":"62%"
     },
@@ -789,8 +789,8 @@
       "title": "Stone 190 DC Edition",
       "rating":"5.0",
       "reviews": "2",
-      "price":"2,990",
-      "dic_price":"1,299",
+      "price":"2990",
+      "dic_price":1299,
       "saving":"1691",
       "discount":"57%"
     },
@@ -801,7 +801,7 @@
       "rating":"4.9",
       "reviews": "146",
       "price":"3,990",
-      "dic_price":"1,399",
+      "dic_price":1399,
       "saving":"2591",
       "discount":"65%"
     },{
@@ -811,7 +811,7 @@
       "rating":"4.8",
       "reviews": "121",
       "price":"7,990",
-      "dic_price":"2,999",
+      "dic_price":2999,
       "saving":"4991",
       "discount":"62%"
     },
@@ -822,7 +822,7 @@
       "rating":"5.0",
       "reviews": "2",
       "price":"2,990",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"1691",
       "discount":"57%"
     },
@@ -833,7 +833,7 @@
       "rating":"4.9",
       "reviews": "146",
       "price":"3,990",
-      "dic_price":"1,399",
+      "dic_price":1399,
       "saving":"2591",
       "discount":"65%"
     }
@@ -847,7 +847,7 @@
       "rating":"4.8",
       "reviews": "133",
       "price":"3,490",
-      "dic_price":"1,299",
+      "dic_price":1999,
       "saving":"219",
       "discount":"63%"
     },
@@ -858,7 +858,7 @@
       "rating":"4.8",
       "reviews": "466",
       "price":"2,990",
-      "dic_price":"1,099",
+      "dic_price":1099,
       "saving":"1900",
       "discount":"63%"
     },{
@@ -868,7 +868,7 @@
       "rating":"4.8",
       "reviews": "121",
       "price":"7,990",
-      "dic_price":"2,999",
+      "dic_price":2999,
       "saving":"4991",
       "discount":"62%"
     },
@@ -879,7 +879,7 @@
       "rating":"5.0",
       "reviews": "2",
       "price":"2,990",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"1691",
       "discount":"57%"
     },
@@ -890,7 +890,7 @@
       "rating":"4.9",
       "reviews": "146",
       "price":"3,990",
-      "dic_price":"1,399",
+      "dic_price":1399,
       "saving":"2591",
       "discount":"65%"
     },{
@@ -900,7 +900,7 @@
       "rating":"4.8",
       "reviews": "121",
       "price":"7,990",
-      "dic_price":"2,999",
+      "dic_price":2999,
       "saving":"4991",
       "discount":"62%"
     },
@@ -911,7 +911,7 @@
       "rating":"5.0",
       "reviews": "2",
       "price":"2,990",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"1691",
       "discount":"57%"
     },
@@ -922,7 +922,7 @@
       "rating":"4.9",
       "reviews": "146",
       "price":"3,990",
-      "dic_price":"1,399",
+      "dic_price":1399,
       "saving":"2591",
       "discount":"65%"
     }
@@ -936,7 +936,7 @@
       "rating":"4.8",
       "reviews": "133",
       "price":"3,490",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"219",
       "discount":"63%"
     },
@@ -947,7 +947,7 @@
       "rating":"4.8",
       "reviews": "466",
       "price":"2,990",
-      "dic_price":"1,099",
+      "dic_price":1099,
       "saving":"1900",
       "discount":"63%"
     },{
@@ -957,7 +957,7 @@
       "rating":"4.8",
       "reviews": "121",
       "price":"7,990",
-      "dic_price":"2,999",
+      "dic_price":2999,
       "saving":"4991",
       "discount":"62%"
     },
@@ -968,7 +968,7 @@
       "rating":"5.0",
       "reviews": "2",
       "price":"2,990",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"1691",
       "discount":"57%"
     },
@@ -979,7 +979,7 @@
       "rating":"4.9",
       "reviews": "146",
       "price":"3,990",
-      "dic_price":"1,399",
+      "dic_price":1399,
       "saving":"2591",
       "discount":"65%"
     },{
@@ -989,7 +989,7 @@
       "rating":"4.8",
       "reviews": "121",
       "price":"7,990",
-      "dic_price":"2,999",
+      "dic_price":2999,
       "saving":"4991",
       "discount":"62%"
     },
@@ -1000,7 +1000,7 @@
       "rating":"5.0",
       "reviews": "2",
       "price":"2,990",
-      "dic_price":"1,299",
+      "dic_price":1299,
       "saving":"1691",
       "discount":"57%"
     },
@@ -1011,7 +1011,7 @@
       "rating":"4.9",
       "reviews": "146",
       "price":"3,990",
-      "dic_price":"1,399",
+      "dic_price":1399,
       "saving":"2591",
       "discount":"65%"
     },
@@ -1022,7 +1022,7 @@
       "rating":"4.9",
       "reviews": "146",
       "price":"3,990",
-      "dic_price":"1,399",
+      "dic_price":1399,
       "saving":"2591",
       "discount":"65%"
     }
@@ -1035,7 +1035,7 @@
       "rating":"4.8",
       "reviews": "143",
       "price":"4,490",
-      "dic_price":"1,399",
+      "dic_price":1399,
       "saving":"3091",
       "discount":"69%"
     },
@@ -1046,7 +1046,7 @@
       "rating":"4.6",
       "reviews": "496",
       "price":"990",
-      "dic_price":"379",
+      "dic_price":379,
       "saving":"620",
       "discount":"62%"
     },{
@@ -1056,7 +1056,7 @@
       "rating":"4.9",
       "reviews": "1,299",
       "price":"3,990",
-      "dic_price":"2,691",
+      "dic_price":2691,
       "saving":"2691",
       "discount":"67%"
     },
@@ -1067,7 +1067,7 @@
       "rating":"5.0",
       "reviews": "242",
       "price":"999",
-      "dic_price":"399",
+      "dic_price":399,
       "saving":"600",
       "discount":"60%"
     },
@@ -1077,7 +1077,7 @@
       "rating":"4.9",
       "reviews": "246",
       "price":"999",
-      "dic_price":"299",
+      "dic_price":299,
       "saving":"700",
       "discount":"70%"
     },{
@@ -1085,7 +1085,7 @@
       "image":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/218997d1-3fe9-4a19-809c-94a8a2d05273_200x.png?v=1625045659",
       "title": "boAt Airdopes 441 Pro - Bluetooth Wireless Earbuds",
       "rating":"4.8",
-      "reviews": "121",
+      "reviews": 121,
       "price":"5,999",
       "dic_price":"2,499",
       "saving":"3591",
@@ -1098,7 +1098,7 @@
       "rating":"5.0",
       "reviews": "2",
       "price":"4,990",
-      "dic_price":"899",
+      "dic_price":899,
       "saving":"4097",
       "discount":"82%"
     },
@@ -1109,7 +1109,7 @@
       "rating":"4.9",
       "reviews": "846",
       "price":"1299",
-      "dic_price":"399",
+      "dic_price":399,
       "saving":"900",
       "discount":"70%"
     },
@@ -1119,7 +1119,7 @@
       "rating":"4.9",
       "reviews": "246",
       "price":"999",
-      "dic_price":"299",
+      "dic_price":299,
       "saving":"700",
       "discount":"70%"
     }
