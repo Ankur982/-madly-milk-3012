@@ -126,7 +126,7 @@ export const TrendingWired = () => {
                 <p className="itemSav">
                   You Save: ₹ {e.saving} ({e.discount})
                 </p>
-                <Button w="294px" h="37px" bg="#ff0000" color="white" size="lg"> onClick={() => addtoCart(e)}
+                <Button w="294px" h="37px" bg="#ff0000" color="white" size="lg" onClick={() => addtoCart(e)}> 
                   ADD TO CART
                 </Button>
               </div>
