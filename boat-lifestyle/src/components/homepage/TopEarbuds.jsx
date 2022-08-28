@@ -1,7 +1,8 @@
 import { Button } from "@chakra-ui/react";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import data from "../db.json";
+import { ModalComponent } from "../ModalComponent";
 
 const BestSellerBox = styled.div`
   width: 92%;
@@ -60,8 +61,33 @@ const BestSellerBox = styled.div`
   }
 `;
 
+const getLocalItem = () =>{
+  return JSON.parse(localStorage.getItem("mensData")) || [];
+
+}
+
 export const TopEarbuds = () => {
   const [bestSellerItem, setBestSellerItem] = useState(data.TopEarbuds);
+  const [isModalVisible, setIsModalVisible] = useState(false);
+  const [selectedBox, setSelectedBox] = useState({});
+  const [spraid, setSpraid] = useState(getLocalItem());
+
+  const addtoCart = (item) => {
+    setSpraid([...spraid, item]);
+    alert("Item Added.!");
+
+    // console.log("item: ", item);
+  };
+  useEffect(()=>{
+
+    localStorage.setItem("mensData", JSON.stringify(spraid));
+  },[spraid])
+  
+  
+  const handleClick = (item) => {
+    setIsModalVisible(true);
+    setSelectedBox(item);
+  };
 
   return (
     <>
@@ -80,7 +106,7 @@ export const TopEarbuds = () => {
         {bestSellerItem &&
           bestSellerItem.map((e) => (
             <div key={e.id} className="BestSellerItem">
-              <div className="BestSellerItemImage">
+              <div className="BestSellerItemImage" onClick={()=>handleClick(e)}>
                 <img src={e.image} alt="logo" />
               </div>
 
@@ -102,12 +128,17 @@ export const TopEarbuds = () => {
                 <p className="itemSav">
                   You Save: ₹ {e.saving} ({e.discount})
                 </p>
-                <Button w="294px" h="37px" bg="#ff0000" color="white" size="lg">
+                <Button w="294px" h="37px" bg="#ff0000" color="white" size="lg" onClick={() => addtoCart(e)}>
                   ADD TO CART
                 </Button>
               </div>
             </div>
           ))}
+           <ModalComponent
+          data={selectedBox}
+          isOpen={isModalVisible}
+          setIsOpen={setIsModalVisible}
+        />
       </BestSellerBox>
     </>
   );

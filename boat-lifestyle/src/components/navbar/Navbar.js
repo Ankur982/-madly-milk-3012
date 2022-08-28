@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link, useNavigate } from "react-router-dom";
 
 // importing Custom sub-Components
-import { Collection, SearchResults } from "./NavHover";
+import { Collection } from "./NavHover";
 import { Input, InputGroup, InputLeftElement } from "@chakra-ui/react";
 import { SearchIcon } from "@chakra-ui/icons";
 // importing assets
@@ -246,7 +246,6 @@ function handlekey(e){
               placeholder="Search Product"
               onKeyDown={(e)=> handlekey(e)}
             />
-            <SearchResults/>
           </InputGroup>
 
           <div>

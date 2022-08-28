@@ -8,7 +8,8 @@ import { useEffect, useState } from "react";
 const PaymentContainer = styled.div`
     width: 100%;
     height: 1270px;
-    background: var(--ligth-white);
+    background: black;
+    font-weigth:600;
 
     a {
         color: inherit !important;
@@ -20,6 +21,7 @@ const PaymentContainer = styled.div`
         border: 1px solid transparent;
 
         .payment-title {
+            color:white;
             font-size: 16px;
             font-style: normal;
             font-weight: 600;
@@ -28,7 +30,7 @@ const PaymentContainer = styled.div`
         }
 
         > section {
-            background: var(--ligth-light-white);
+            background: grey;
             padding-left: 17px;
         }
 
@@ -170,7 +172,7 @@ const PaymentContainer = styled.div`
                     padding-left: 17px;
                     width: 755px;
                     height: 100%;
-                    background: var(--white);
+                    background: white;
                     outline: none;
                     border: none;
                     border-top-left-radius: 8px;
@@ -185,7 +187,7 @@ const PaymentContainer = styled.div`
                     font-style: normal;
                     font-weight: 500;
                     line-height: 24px;
-                    color: var(--white);
+                    color: white;
                     display: grid;
                     align-items: center;
                     justify-content: center;

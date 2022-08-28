@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import styled from "styled-components";
 import axios from "axios";
 import { Link, Navigate } from "react-router-dom";
-
+import  { Redirect } from 'react-router-dom'
 const Container = styled.div`
     height: 600px;
     background-color: #252525;
@@ -141,7 +141,7 @@ export function Register() {
                         <h2>Register</h2>
                     </div>
                     <p>Please fill in the fields below:</p>
-                    <Form onSubmit={handleSubmit}>
+                    <Form onSubmit={(e)=>handleSubmit()}>
                         <div className="input-box">
                             <input
                                 required
@@ -193,9 +193,7 @@ export function Register() {
                     </Form>
                     {flag ? (
                         <Navigate to="/account/login" />
-                    ) : (
-                        <Navigate to="/account/register" />
-                    )}
+                    ):"" }
                 </div>
             </div>
         </Container>

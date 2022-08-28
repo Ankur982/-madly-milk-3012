@@ -2,6 +2,7 @@ import { Button } from "@chakra-ui/react";
 import React, { useState } from "react";
 import styled from "styled-components";
 import data from "../db.json";
+import { ModalComponent } from "../ModalComponent";
 
 const BestSellerBox = styled.div`
   width: 98%;
@@ -64,16 +65,23 @@ const BestSellerBox = styled.div`
   }
 `;
 
+
 export const NewArrivals = () => {
   const [bestSellerItem, setBestSellerItem] = useState(data.NewArrivals);
-
+  const [isModalVisible, setIsModalVisible] = useState(false);
+  const [selectedBox, setSelectedBox] = useState({});
+  
+  const handleClick = (item) => {
+    setIsModalVisible(true);
+    setSelectedBox(item);
+  };
   return (
     <>
       <BestSellerBox>
         {bestSellerItem &&
           bestSellerItem.map((e) => (
             <div key={e.id} className="BestSellerItem">
-              <div className="BestSellerItemImage">
+              <div className="BestSellerItemImage" onClick={()=>handleClick(e)}>
               <video
                     src={e.video}
                     loop
@@ -98,6 +106,11 @@ export const NewArrivals = () => {
               </div>
             </div>
           ))}
+           <ModalComponent
+          data={selectedBox}
+          isOpen={isModalVisible}
+          setIsOpen={setIsModalVisible}
+        />
       </BestSellerBox>
     </>
   );

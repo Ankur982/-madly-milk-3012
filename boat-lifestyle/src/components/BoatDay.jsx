@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Button, Link } from "@chakra-ui/react";
 import { useState } from "react";
 import styled from "styled-components";
 import data from "./db.json";
 import { Chatbot } from "./Chatbot";
+import { useNavigate } from "react-router";
 
 const BestSellerBox = styled.div`
   width: 92%;
@@ -61,9 +62,27 @@ const BestSellerBox = styled.div`
     margin-bottom: 5px;
   }
 `;
+const getLocalItem = () =>{
+  return JSON.parse(localStorage.getItem("mensData")) || [];
 
+}
 export const BoatDay = () => {
   const [bestSellerItem, setBestSellerItem] = useState(data.BoatDay);
+  const navigate=useNavigate()
+  const [selectedBox, setSelectedBox] = useState({});
+  const [spraid, setSpraid] = useState(getLocalItem());
+
+  const addtoCart = (item) => {
+    setSpraid([...spraid, item]);
+    alert("Item Added.!");
+
+    // console.log("item: ", item);
+  };
+  useEffect(()=>{
+
+    localStorage.setItem("mensData", JSON.stringify(spraid));
+  },[spraid])
+  
   return (
     <div style={{ backgroundColor: "white" }}>
       <Chatbot/>
@@ -106,6 +125,7 @@ export const BoatDay = () => {
                     bg="#fbc50a"
                     color="white"
                     size="lg"
+                    onClick={() => addtoCart(e)}
                   >
                     ADD TO CART
                   </Button>
@@ -138,7 +158,7 @@ export const BoatDay = () => {
       <div style={{ justifyContent:"center",alignItems:"center" ,textAlign:"center" ,margin:"auto", fontSize:"25px", fontWeight:"600"}}>
         <div>
         <h1>5 Days to Make It Count
-It's not going to be here forever. Make these five days count and get the maximum rewards flowing your way.</h1>  <Link to="/productitemspage"><Button bg={"red"} color={"white"} >SHOP NOW</Button></Link> 
+It's not going to be here forever. Make these five days count and get the maximum rewards flowing your way.</h1>  <Button bg={"red"} color={"white"} onClick={()=>navigate("/productitemspage")} >SHOP NOW</Button> 
         </div>
         
       </div>

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import styled from "styled-components";
 
 const collectionOptinArray = [
@@ -107,7 +107,7 @@ export const Collection = () => {
     <span className="navbar-collection">
       <ImgContainer>
         {collectionOptinArray.map(({ routeLink, coverImgUrl, alt }) => (
-          <Link to={routeLink}>
+          <Link to="/">
             <img src={coverImgUrl} alt={alt}/>
           </Link>
         ))}

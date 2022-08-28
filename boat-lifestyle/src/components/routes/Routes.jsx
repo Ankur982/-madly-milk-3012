@@ -1,11 +1,13 @@
 import { Route, Routes } from "react-router-dom";
 import { BoatDay } from "../BoatDay";
+import Cart from "../Cart";
 import { Errors } from "../Error";
 import { Footer } from "../Footer";
 import { HomePage } from "../homepage/HomePage";
 import { Login } from "../Login";
 import { Navbar } from "../navbar/Navbar";
 import { OffersZone } from "../OffersZone";
+import { Payment } from "../Payment";
 import { ProductItemsPage } from "../ProductItemsPage/ProductCollection";
 import ProductPage from "../ProductPage/ProductPage";
 import { Register } from "../Register";
@@ -84,6 +86,27 @@ export function AllRoutes() {
               <Navbar />
               <Errors />
               <Footer />
+            </>
+          }
+        ></Route>
+
+        <Route
+          path="/cart"
+          element={
+            <>
+              <Navbar />
+              <Cart />
+              <Footer />
+            </>
+          }
+        ></Route>
+        <Route
+          path="/payment"
+          element={
+            <>
+              <Navbar />
+              <Payment />
+              <Navbar />
             </>
           }
         ></Route>

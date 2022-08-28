@@ -1,10 +1,11 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { fetchUsers } from "./fetchProduct";
 import { Button } from "@chakra-ui/react";
 import { useState } from "react";
 import styled from "styled-components";
 import { AppContext } from "../navbar/Navbar";
 import { ModalComponent } from "../ModalComponent";
+import { AiOutlineHeart } from "react-icons/ai";
 
 const BestSellerBox = styled.div`
   width: 92%;
@@ -66,11 +67,16 @@ const BestSellerBox = styled.div`
   }
 `;
 
+
+const getLocalItem = () =>{
+  return JSON.parse(localStorage.getItem("mensData")) || [];
+
+}
 export const ProductItemsPage = () => {
   const input = useContext(AppContext);
 
   // console.log("Input", input);
-
+  const [spraid, setSpraid] = useState(getLocalItem());
   const [query, setQuery] = React.useState(input);
   const [isLoading, setIsLoading] = React.useState(false);
   const [isError, setIsError] = React.useState(false);
@@ -80,6 +86,23 @@ export const ProductItemsPage = () => {
 
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [selectedBox, setSelectedBox] = useState({});
+
+  // const [isModalVisible, setIsModalVisible] = useState(false);
+  // const [selectedBox, setSelectedBox] = useState({});
+  // const [spraid, setSpraid] = useState(getLocalItem());
+
+  const addtoCart = (item) => {
+    setSpraid([...spraid, item]);
+    alert("Item Added.!");
+
+    // console.log("item: ", item);
+  };
+  useEffect(()=>{
+
+    localStorage.setItem("mensData", JSON.stringify(spraid));
+  },[spraid])
+  
+
 
   const handleClick = (item) => {
     setIsModalVisible(true);
@@ -118,8 +141,9 @@ export const ProductItemsPage = () => {
       <BestSellerBox>
         {data &&
           data.map((e) => (
-            <div key={e.id} className="BestSellerItem" onClick={()=>handleClick(e)}>
-              <div className="BestSellerItemImage">
+            <div key={e.id} className="BestSellerItem">
+              
+              <div className="BestSellerItemImage" onClick={()=>handleClick(e)} >
                 <img src={e.image} alt="logo" />
               </div>
 
@@ -141,7 +165,7 @@ export const ProductItemsPage = () => {
                 <p className="itemSav">
                   You Save: ₹ {e.saving} ({e.discount})
                 </p>
-                <Button w="294px" h="37px" bg="#ff0000" color="white" size="lg">
+                <Button w="294px" h="37px" bg="#ff0000" color="white" size="lg"   onClick={() => addtoCart(e)}>
                   ADD TO CART
                 </Button>
               </div>
