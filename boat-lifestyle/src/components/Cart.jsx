@@ -21,9 +21,14 @@ const Cart = () => {
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [selectedBox, setSelectedBox] = useState({});
   const [total, setTotal] = useState()
+  const [temp, setTemp] = useState(0)
 
   //-----------modal----------------
- 
+  const handleClick = (item) => {
+    setIsModalVisible(true);
+    setSelectedBox(item);
+    localStorage.setItem("details", JSON.stringify(item))
+  };
 
   
   //-------------local storage--------
@@ -33,16 +38,17 @@ const Cart = () => {
     }
     setData1(local());
     totalPrice();
-    localStorage.setItem("total", JSON.stringify({total}));
-  }, [local()]);
+    console.log(local())
+  }, [temp]);
 
   const remove = (item) => {
+    setTemp(temp+1)
     data1.splice(item, 1);
     localStorage.setItem("mensData", JSON.stringify(data1));
-   
+    // window.location.reload();
   };
 
-
+//--------------Total----------------------
 const totalPrice = () =>{
   let sum = 0;
   data1.map((el)=>{
@@ -51,12 +57,6 @@ const totalPrice = () =>{
   })
 
 }
-
-const handleClick = (item) => {
-  setIsModalVisible(true);
-  setSelectedBox(item);
-};
-
 
 
 

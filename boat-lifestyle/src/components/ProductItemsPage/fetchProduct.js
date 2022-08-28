@@ -5,7 +5,7 @@ function fetchUsers(query, page) {
     return Promise.reject("query should be provided");
   }
 
-  return axios.get("http://localhost:3000/AllProduct", {
+  return axios.get("https://mighty-reef-32699.herokuapp.com/AllProduct", {
     params: {
       q: query
     }

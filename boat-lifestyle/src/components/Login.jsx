@@ -269,7 +269,7 @@ export function Login() {
   const [forgotPass, setForgotPass] = useState("first");
 
   const getData = async () => {
-    const res = await axios.get("http://localhost:3000/users");
+    const res = await axios.get("https://mighty-reef-32699.herokuapp.com/users");
     setData(res.data);
     
   };
