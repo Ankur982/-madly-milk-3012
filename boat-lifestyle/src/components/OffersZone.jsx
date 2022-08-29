@@ -12,15 +12,14 @@ import Timer from './homepage/Timmer';
 const BestSellerBox = styled.div`
   width: 92%;
   display: grid;
-  display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto auto;
+  grid-template-rows: repeat(auto,auto);
   margin: auto;
   margin: 50px 0;
   gap: 30px;
   line-height: 25px;
-
   .BestSellerItem {
+    
     background-color: #e3e3e3;
     border: 1px solid white;
     width: 331px;
@@ -138,8 +137,8 @@ export const OffersZone = () => {
       <Button bg={"red"} color={"white"} margin={"0 10px"} onClick={() => setSortByName((prev) => (prev == "desc" ? "asc" : "desc"))}>{sortByName === "desc" ?  "Sort By Name(ASD)" :"Sort By Name(DESC)"}</Button>
       </div>
       <Timer/>
-      <b style={{color:"white",fontSize:"40px",fontWeight:"600"}}>Offer Zone</b>
-      <BestSellerBox>
+      <b style={{color:"white",fontSize:"40px",fontWeight:"600", marginLeft:"50px"}}>Offer Zone</b>
+      <BestSellerBox style={{margin:"auto"}}>
        
         {data &&
           data.map((e) => (

@@ -87,15 +87,12 @@ export const ProductItemsPage = () => {
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [selectedBox, setSelectedBox] = useState({});
 
-  // const [isModalVisible, setIsModalVisible] = useState(false);
-  // const [selectedBox, setSelectedBox] = useState({});
-  // const [spraid, setSpraid] = useState(getLocalItem());
+ 
 
   const addtoCart = (item) => {
     setSpraid([...spraid, item]);
     alert("Item Added.!");
 
-    // console.log("item: ", item);
   };
   useEffect(()=>{
 
@@ -138,7 +135,7 @@ export const ProductItemsPage = () => {
       <Button bg={"red"} color={"white"} margin={"0 10px"} onClick={() => setSortByName((prev) => (prev == "desc" ? "asc" : "desc"))}>{sortByName === "desc" ?  "Sort By Name(ASD)" :"Sort By Name(DESC)"}</Button>
       </div>
       
-      <BestSellerBox>
+      <BestSellerBox style={{margin:"auto"}}>
         {data &&
           data.map((e) => (
             <div key={e.id} className="BestSellerItem">
